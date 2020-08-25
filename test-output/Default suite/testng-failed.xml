@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mkyong.busonfiscal.TestFacturaBasica">
+      <class name="com.mkyong.busonfiscal.HomePageBuson">
         <methods>
           <include name="basePageNavigation"/>
-          <include name="initiaLiseBrowser"/>
           <include name="closeBrowser"/>
+          <include name="initiaLiseBrowser"/>
         </methods>
-      </class> <!-- com.mkyong.busonfiscal.TestFacturaBasica -->
+      </class> <!-- com.mkyong.busonfiscal.HomePageBuson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
