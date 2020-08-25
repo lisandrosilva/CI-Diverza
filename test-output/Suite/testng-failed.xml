@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ComercioExteriorDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestComercioExteriorDetail">
+        <methods>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestComercioExteriorDetail -->
+    </classes>
+  </test> <!-- ComercioExteriorDetail(failed) -->
+  <test thread-count="5" name="ImpuestosLocalesDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestImpuestosLocalesDetail">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestImpuestosLocalesDetail -->
+    </classes>
+  </test> <!-- ImpuestosLocalesDetail(failed) -->
+  <test thread-count="5" name="INEDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestINEDetail">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="basePageNavigation"/>
+          <include name="initiaLiseBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestINEDetail -->
+    </classes>
+  </test> <!-- INEDetail(failed) -->
+  <test thread-count="5" name="InstituicionesEducativasDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestInstituicionesEducativasDetail">
+        <methods>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestInstituicionesEducativasDetail -->
+    </classes>
+  </test> <!-- InstituicionesEducativasDetail(failed) -->
+  <test thread-count="5" name="ObrasYartesDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestObrasDeArteYAtenguedadDetail">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="closeBrowser"/>
+          <include name="initiaLiseBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestObrasDeArteYAtenguedadDetail -->
+    </classes>
+  </test> <!-- ObrasYartesDetail(failed) -->
+  <test thread-count="5" name="PagoEnEspeciesDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestPagoEnEspeciesDetail">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestPagoEnEspeciesDetail -->
+    </classes>
+  </test> <!-- PagoEnEspeciesDetail(failed) -->
+  <test thread-count="5" name="PeronasFisicasDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestPersonasFisicasIntegranteDeCoordinacionDetail">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestPersonasFisicasIntegranteDeCoordinacionDetail -->
+    </classes>
+  </test> <!-- PeronasFisicasDetail(failed) -->
+  <test thread-count="5" name="ServiciosParcealesDeConstruccionDetail(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestServiciosParcealesDeContrucciondDetail">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.detail.TestServiciosParcealesDeContrucciondDetail -->
+    </classes>
+  </test> <!-- ServiciosParcealesDeConstruccionDetail(failed) -->
+</suite> <!-- Failed suite [Suite] -->

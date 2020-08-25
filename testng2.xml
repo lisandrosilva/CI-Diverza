@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mkyong.busonfiscal.detail.TestCartaPorteComercioExteriorDetail"/>
+      </classes>
+      </test>
+      <test name="ComercioExteriorDetail">
+	 <classes>
+	   <class name="com.mkyong.busonfiscal.detail.TestComercioExteriorDetail"/>
+	 </classes>
+   </test>
+   
+  <test name="DonativosDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestDonativosDetail"/>
+ </classes>
+    </test>
+    
+    <test name="AdendaMultiassitenciaDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestFacturaAdendaMultiAssistenciaDetail"/>
+ </classes>
+    </test>
+    
+     <test name="FacturaBasicadetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestFacturaBasicaDetail"/>
+ </classes>
+    </test>
+   
+    <test name="CartaPorteDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestFacturaCartaPorteDetail"/>
+ </classes>
+    </test>
+    
+      <test name="DetallistaDetallista">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestFacturaDetallistaDetallista"/>
+ </classes>
+    </test>
+    
+   
+   <test name="PagoDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestFacturaPagoDetail"/>
+ </classes>
+    </test>
+    
+    <test name="ImpuestosLocalesDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestImpuestosLocalesDetail"/>
+ </classes>
+    </test>
+    
+    <test name="INEDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestINEDetail"/>
+ </classes>
+    </test>
+    
+    <test name="InstituicionesEducativasDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestInstituicionesEducativasDetail"/>
+ </classes>
+    </test>
+    
+    <test name="LeyendasFiscalesDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestLeyendasFiscalesDetail"/>
+ </classes>
+    </test>
+  
+    
+    <test name="DeCreditoDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestNotaDeCreditoDetail"/>
+ </classes>
+    </test>
+    
+    <test name="NotariosPublicosDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestNotariosPublicosDetail"/>
+ </classes>
+    </test>
+    
+    <test name="ObrasYartesDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestObrasDeArteYAtenguedadDetail"/>
+ </classes>
+ 
+    </test>
+    <test name="PagoEnEspeciesDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestPagoEnEspeciesDetail"/>
+ </classes>
+ 
+   </test>
+    <test name="PeronasFisicasDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestPersonasFisicasIntegranteDeCoordinacionDetail"/>
+ </classes>
+    </test>
+   
+    
+    <test name="ServiciosParcealesDeConstruccionDetail">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestServiciosParcealesDeContrucciondDetail"/>
+ </classes>
+    </test>
+    
+   
+ <test name="TuristaPasageroExtranjero">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestTuristaPasajeroExtranjeroDetail"/>
+ </classes>
+    </test>
+    
+    <test name="VehiculosUsados">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestVehiculosUsadosDetail"/>
+ </classes>
+    </test>
+
+     <test name="VentaDeVehiculos">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.TestVentaDeVehiculosDetail"/>
+ </classes>
+    </test>
+    
+    
+  
+      
+ 
+ 
+  
+   
+    
+</suite> <!-- Suite -->

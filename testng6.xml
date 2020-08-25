@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+<listener class-name="com.mkyong.busonfiscal.Listeners"/>
+<listener class-name="com.mkyong.nomina.Listeners"/>
+<listener class-name="com.mkyong.busongratis.Listeners"/>
+<listener class-name="com.mkyong.impression.fiscal.Listeners"/>
+<listener class-name="com.mkyong.buson.jes.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mkyong.busonfiscal.HomePageBusonTest"/>
+      </classes>
+      </test>
+      <test name="ClientProducto">
+	 <classes>
+	   <class name="com.mkyong.busonfiscal.ClientProductoTest"/>
+	 </classes>
+   </test>
+   
+  <test name="Comprobante3">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosTest3"/>
+ </classes>
+    </test>
+    
+    <test name="Cancelacion2">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3"/>
+ </classes>
+    </test>
+    
+    
+      <test name="Cancelacion3">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4"/>
+ </classes>
+    </test>
+    
+    <test name="Password">
+     <classes>
+       <class name="com.mkyong.busonfiscal.PasswordTest"/>
+ </classes>
+    </test>
+    
+    <test name="Email">
+     <classes>
+       <class name="com.mkyong.busonfiscal.EmailTest"/>
+ </classes>
+    </test>
+    
+    <test name="EmailPassword">
+     <classes>
+       <class name="com.mkyong.busonfiscal.EmailAndPasswordTest"/>
+ </classes>
+    </test>
+    
+    
+    <test name="EmailPasswordCorrect">
+     <classes>
+       <class name="com.mkyong.busonfiscal.EmailPasswordCorrectTest"/>
+ </classes>
+    </test>
+    
+   
+     
+    <test name="DuplicadoFacturaSimples">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3"/>
+ </classes>
+    </test>
+     
+    
+     <test name="DuplicadoComplLeyendasFiscales">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2"/>
+ </classes>
+    </test>
+     
+    <test name="BusquedaDeReportesEmitos5">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest5"/>
+ </classes>
+    </test>
+   
+   
+   <test name="BusquedaDeReportesEmitos4">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest4"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="BusquedaDeReportesEmitos3">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest3"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="BusquedaDeReportesEmitos2">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest2"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="BusquedaDeReportesEmitos6">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest6"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="BusquedaDeReportesEmitos7">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest7"/>
+ </classes>
+    </test> 
+    
+    <test name="BusquedaDeReportesEmitos8">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest8"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="BusquedaDeReportesEmitos9">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest9"/>
+ </classes>
+    </test> 
+    
+    <test name="BusquedaDeReportesEmitos10">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest10"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="BusquedaDeReportesEmitos11">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest11"/>
+ </classes>
+    </test> 
+    
+     <test name="BusquedaDeReportesEmitos12">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest12"/>
+ </classes>
+    </test> 
+    
+    
+    
+    <test name="BusquedaDeReportesEmitos14">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest14"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="BusquedaDeReportesEmitos15">
+     <classes>
+       <class name="com.mkyong.busonfiscal.BusquedaReportesTest15"/>
+ </classes>
+    </test> 
+    
+    
+       <test name="ReportesEmitidos5">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosTest5"/>
+ </classes>
+    </test> 
+    
+    
+    
+    <test name="Comprobante4">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ReportesEmitidosTest4"/>
+ </classes>
+    </test>
+    
+     <test name="FacturaBasica">
+     <classes>
+       <class name="com.mkyong.busonfiscal.FacturaBasicaTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura">
+     <classes>
+       <class name="com.mkyong.busonfiscal.FacturaCartaPorteTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura1">
+     <classes>
+       <class name="com.mkyong.busonfiscal.FacturaPagoTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura2">
+     <classes>
+       <class name="com.mkyong.busonfiscal.NotaDeCreditoTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura3">
+     <classes>
+       <class name="com.mkyong.busonfiscal.FacturaDetallistaTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura4">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ImpuestosLocalesTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura5">
+     <classes>
+       <class name="com.mkyong.busonfiscal.INETest"/>
+ </classes>
+    </test>
+    <test name="Factura6">
+     <classes>
+       <class name="com.mkyong.busonfiscal.InstituicionesEducativasTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura7">
+     <classes>
+       <class name="com.mkyong.busonfiscal.LeyendasFiscalesTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura8">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura9">
+     <classes>
+       <class name="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura10">
+     <classes>
+       <class name="com.mkyong.busonfiscal.VehiculosUsadosTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura11">
+     <classes>
+       <class name="com.mkyong.busonfiscal.VentaDeVehiculosTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura12">
+     <classes>
+       <class name="com.mkyong.busonfiscal.DonativosTest"/>
+ </classes>
+    </test>
+    
+ 
+ 
+ <test name="Factura13">
+     <classes>
+       <class name="com.mkyong.busonfiscal.NotariosPublicosTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura14">
+     <classes>
+       <class name="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest"/>
+ </classes>
+    </test>
+
+     <test name="Factura15">
+     <classes>
+       <class name="com.mkyong.busonfiscal.PagoEnEspeciesTest"/>
+ </classes>
+    </test>
+    
+    <test name="Factura17">
+     <classes>
+       <class name="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest"/>
+ </classes>
+    </test>
+    
+    
+    <test name="Factura18">
+     <classes>
+       <class name="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest"/>
+ </classes>
+    </test>  
+    
+    
+     
+    
+     <test name="Factura22">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest"/>
+ </classes>
+    </test>  
+    
+    
+    
+     <test name="Factura23">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2"/>
+ </classes>
+    </test>  
+    
+    
+     <test name="Factura24">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest"/>
+ </classes>
+    </test>  
+    
+    
+     <test name="Factura25">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2"/>
+ </classes>
+    </test>  
+    
+    
+     <test name="Factura26">
+     <classes>
+       <class name="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2"/>
+ </classes>
+    </test>  
+    
+    
+    
+
+<test name="Nomina">
+     <classes>
+       <class name="com.mkyong.nomina.NominaFiscalDescargaTest"/>
+ </classes>
+    </test>  
+    
+    
+    
+    <test name="Nomina1">
+     <classes>
+       <class name="com.mkyong.nomina.NominaFiscalTest"/>
+ </classes>
+    </test>  
+    
+    
+    <test name="Gratis">
+     <classes>
+       <class name="com.mkyong.busongratis.FacturaBasicaGratisTest2"/>
+ </classes>
+    </test>  
+    
+    
+    <test name="Gratis1">
+     <classes>
+       <class name="com.mkyong.busongratis.FacturaCartaPorteGratisTest2"/>
+ </classes>
+    </test>  
+    
+    <test name="Gratis2">
+     <classes>
+       <class name="com.mkyong.busongratis.FacturaPagoGratisTest2"/>
+ </classes>
+    </test>  
+    
+    <test name="Impression">
+     <classes>
+       <class name="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3"/>
+ </classes>
+    </test>  
+    
+     <test name="Impression2">
+     <classes>
+       <class name="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4"/>
+ </classes>
+    </test>  
+    
+    
+     <test name="Impression3">
+     <classes>
+       <class name="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5"/>
+ </classes>
+    </test>  
+    
+    
+
+
+<test name="JesBuzon">
+     <classes>
+       <class name="com.mkyong.buson.jes.FacturaBasicaJesTest"/>
+ </classes>
+    </test>  
+    
+    
+    <test name="JesBuzon1">
+     <classes>
+       <class name="com.mkyong.buson.jes.FacturaCartaPorteJesTest"/>
+ </classes>
+    </test> 
+
+ <test name="JesBuzon2">
+     <classes>
+       <class name="com.mkyong.buson.jes.FacturaDetallistaJesTest"/>
+ </classes>
+    </test> 
+
+<test name="JesBuzon3">
+     <classes>
+       <class name="com.mkyong.buson.jes.FacturaPagoJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon4">
+     <classes>
+       <class name="com.mkyong.buson.jes.ImpuestosLocalesJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon5">
+     <classes>
+       <class name="com.mkyong.buson.jes.INEJesTest"/>
+ </classes>
+    </test> 
+
+<test name="JesBuzon6">
+     <classes>
+       <class name="com.mkyong.buson.jes.InstituicionesEducativasJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon7">
+     <classes>
+       <class name="com.mkyong.buson.jes.NotaDeCreditoJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon8">
+     <classes>
+       <class name="com.mkyong.buson.jes.PagoEnEspeciesJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon9">
+     <classes>
+       <class name="com.mkyong.buson.jes.VehiculosUsadosJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesBuzon10">
+     <classes>
+       <class name="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest"/>
+ </classes>
+    </test> 
+    
+    
+    <test name="JesBuzonDetail">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="Conector">
+     <classes>
+       <class name="com.mkyong.conector.jes.FacturaBasicaJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="Conector1">
+     <classes>
+       <class name="com.mkyong.conector.jes.FacturaCartaPorteJesTest"/>
+ </classes>
+    </test> 
+    
+    <test name="Conector2">
+     <classes>
+       <class name="com.mkyong.conector.jes.FacturaDetallistaJesTest"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="Conector3">
+     <classes>
+       <class name="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="Conector4">
+     <classes>
+       <class name="com.mkyong.conector.jes.PagoEnEspeciesJesTest"/>
+ </classes>
+    </test> 
+    
+    
+     <test name="Conciliacion">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest10"/>
+ </classes>
+    </test> 
+
+
+ <test name="Conciliacion1">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest11"/>
+ </classes>
+    </test> 
+    
+    
+     
+<test name="Conciliacion2">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest13"/>
+ </classes>
+    </test> 
+    
+    
+  <test name="Conciliacion3">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest3"/>
+ </classes>
+    </test>   
+    
+    
+    <test name="Conciliacion4">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest4"/>
+ </classes>
+    </test> 
+    
+    <test name="Conciliacion5">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest5"/>
+ </classes>
+    </test> 
+    
+    <test name="Conciliacion6">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest62"/>
+ </classes>
+    </test> 
+    
+    <test name="Conciliacion7">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest32"/>
+ </classes>
+    </test> 
+    
+    
+    
+    <test name="Conciliacion8">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest33"/>
+ </classes>
+    </test> 
+    
+    <test name="Conciliacion9">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest34"/>
+ </classes>
+    </test> 
+    
+    
+   
+    
+    <test name="Conciliacion11">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest63"/>
+ </classes>
+    </test> 
+    
+    
+    
+    <test name="Conciliacion12">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest64"/>
+ </classes>
+    </test> 
+    
+    
+    
+     <test name="Conciliacion13">
+     <classes>
+       <class name="com.mkyong.conciliacion.conector.ConciliacionTest65"/>
+ </classes>
+    </test> 
+    
+    
+    
+    <test name="JesDetail">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.DonativosJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail1">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail2">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail3">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail4">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail5">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail6">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.INEJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail7">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail8">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest"/>
+ </classes>
+    </test> 
+    <test name="JesDetail9">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail10">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    <test name="JesDetail11">
+     <classes>
+       <class name="com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest"/>
+ </classes>
+    </test> 
+    
+    
+</suite> <!-- Suite -->

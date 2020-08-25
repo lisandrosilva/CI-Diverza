@@ -1,0 +1,10 @@
+pageObjects/LandingPage.class
+pageObjects/SearchPage.class
+resources/base.class
+pageObjects/busonfiscal/CommonLocal.class
+pageObjects/busonfiscal/CommonInfo.class
+com/mkyong/hashing/App.class
+resources/ExtentReporterNG.class
+pageObjects/CommonPage.class
+pageObjects/FacturaPage.class
+com/mkyong/hashing/busonfiscal/LandingPageBuson.class

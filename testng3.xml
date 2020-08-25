@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.mkyong.buson.jes.TestComercioExteriorJes"/>
+      </classes>
+      </test>
+      <test name="Donativo">
+	 <classes>
+	   <class name="com.mkyong.buson.jes.TestDonativosJes"/>
+	 </classes>
+   </test>
+   
+  <test name="FacturaBasicaGratuito">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestFacturaBasicaJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaCartaPorteGratuito">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestFacturaCartaPorteJes"/>
+ </classes>
+    </test>
+    
+     <test name="FacturaDetallistaGratuito">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestFacturaDetallistaJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaPago">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestFacturaPagoJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaImpuestosLocales">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestImpuestosLocalesJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaINEGratuito">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestINEJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaInstituicionesEducativas">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestInstituicionesEducativasJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaTestLeyendas">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestLeyendasFiscalesJes"/>
+ </classes>
+    </test>
+    
+    <test name="NotaDeCredito">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestNotaDeCreditoJes"/>
+ </classes>
+    </test>
+    <test name="FacturaNotarioPublico">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestNotariosPublicosJes"/>
+ </classes>
+    </test>
+    
+    <test name="ObrasYArtes">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestObrasDeArteYAtenguedadJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaPagoEnEspecies">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestPagoEnEspeciesJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaPersonas">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestPersonasFisicasIntegranteDeCoordinacionJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaServicios">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestServiciosParcealesDeContruccionJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaTuristas">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestTuristaPasajeroExtranjeroJes"/>
+ </classes>
+    </test>
+    
+    <test name="FacturaVehiculoUsado">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestVehiculosUsadosJes"/>
+ </classes>
+    </test>
+    
+ 
+ 
+ <test name="FacturaVentaVehiculos">
+     <classes>
+       <class name="com.mkyong.buson.jes.TestVentaDeVehiculosJes"/>
+ </classes>
+    </test>
+    
+   
+    
+    
+</suite> <!-- Suite -->
