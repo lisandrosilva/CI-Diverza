@@ -19,6 +19,28 @@
       </class> <!-- com.mkyong.busonfiscal.HomePageBusonTest -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="5" verbose="0" name="ClientProducto(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.ClientProductoTest">
+        <methods>
+          <include name="asignaturaClienteProducto"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.ClientProductoTest -->
+    </classes>
+  </test> <!-- ClientProducto(failed) -->
+  <test thread-count="5" verbose="0" name="Comprobante3(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.ReportesEmitidosTest3">
+        <methods>
+          <include name="initiaLiseBrowser"/>
+          <include name="reportesEmitidos3"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.ReportesEmitidosTest3 -->
+    </classes>
+  </test> <!-- Comprobante3(failed) -->
   <test thread-count="5" verbose="0" name="Cancelacion3(failed)">
     <classes>
       <class name="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4">
@@ -30,6 +52,17 @@
       </class> <!-- com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4 -->
     </classes>
   </test> <!-- Cancelacion3(failed) -->
+  <test thread-count="5" verbose="0" name="BusquedaDeReportesEmitos15(failed)">
+    <classes>
+      <class name="com.mkyong.busonfiscal.BusquedaReportesTest15">
+        <methods>
+          <include name="busquedaDeReportes15"/>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.mkyong.busonfiscal.BusquedaReportesTest15 -->
+    </classes>
+  </test> <!-- BusquedaDeReportesEmitos15(failed) -->
   <test thread-count="5" verbose="0" name="FacturaBasica(failed)">
     <classes>
       <class name="com.mkyong.busonfiscal.FacturaBasicaTest">
@@ -52,17 +85,6 @@
       </class> <!-- com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest -->
     </classes>
   </test> <!-- Factura18(failed) -->
-  <test thread-count="5" verbose="0" name="Factura25(failed)">
-    <classes>
-      <class name="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2">
-        <methods>
-          <include name="initiaLiseBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="facturaCartaPorteDetail2"/>
-        </methods>
-      </class> <!-- com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2 -->
-    </classes>
-  </test> <!-- Factura25(failed) -->
   <test thread-count="5" verbose="0" name="Gratis(failed)">
     <classes>
       <class name="com.mkyong.busongratis.FacturaBasicaGratisTest2">
@@ -74,28 +96,28 @@
       </class> <!-- com.mkyong.busongratis.FacturaBasicaGratisTest2 -->
     </classes>
   </test> <!-- Gratis(failed) -->
-  <test thread-count="5" verbose="0" name="JesBuzon1(failed)">
+  <test thread-count="5" verbose="0" name="Conciliacion3(failed)">
     <classes>
-      <class name="com.mkyong.buson.jes.FacturaCartaPorteJesTest">
-        <methods>
-          <include name="facturaCartaPorte"/>
-          <include name="closeBrowser"/>
-          <include name="initiaLiseBrowser"/>
-        </methods>
-      </class> <!-- com.mkyong.buson.jes.FacturaCartaPorteJesTest -->
-    </classes>
-  </test> <!-- JesBuzon1(failed) -->
-  <test thread-count="5" verbose="0" name="JesBuzon9(failed)">
-    <classes>
-      <class name="com.mkyong.buson.jes.VehiculosUsadosJesTest">
+      <class name="com.mkyong.conciliacion.conector.ConciliacionTest3">
         <methods>
           <include name="initiaLiseBrowser"/>
           <include name="closeBrowser"/>
-          <include name="vehiculosUsadosJes"/>
+          <include name="conciliacionFiscal3"/>
         </methods>
-      </class> <!-- com.mkyong.buson.jes.VehiculosUsadosJesTest -->
+      </class> <!-- com.mkyong.conciliacion.conector.ConciliacionTest3 -->
     </classes>
-  </test> <!-- JesBuzon9(failed) -->
+  </test> <!-- Conciliacion3(failed) -->
+  <test thread-count="5" verbose="0" name="Conciliacion5(failed)">
+    <classes>
+      <class name="com.mkyong.conciliacion.conector.ConciliacionTest5">
+        <methods>
+          <include name="initiaLiseBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="conciliacionFiscal1"/>
+        </methods>
+      </class> <!-- com.mkyong.conciliacion.conector.ConciliacionTest5 -->
+    </classes>
+  </test> <!-- Conciliacion5(failed) -->
   <test thread-count="5" verbose="0" name="Conciliacion6(failed)">
     <classes>
       <class name="com.mkyong.conciliacion.conector.ConciliacionTest62">
@@ -129,26 +151,4 @@
       </class> <!-- com.mkyong.conciliacion.conector.ConciliacionTest64 -->
     </classes>
   </test> <!-- Conciliacion12(failed) -->
-  <test thread-count="5" verbose="0" name="JesDetail1(failed)">
-    <classes>
-      <class name="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest">
-        <methods>
-          <include name="initiaLiseBrowser"/>
-          <include name="facturaAdendaMultAssistDetailJes"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest -->
-    </classes>
-  </test> <!-- JesDetail1(failed) -->
-  <test thread-count="5" verbose="0" name="JesDetail2(failed)">
-    <classes>
-      <class name="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest">
-        <methods>
-          <include name="initiaLiseBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="facturaBasicaDetailJes"/>
-        </methods>
-      </class> <!-- com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest -->
-    </classes>
-  </test> <!-- JesDetail2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

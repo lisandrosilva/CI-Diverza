@@ -8,6 +8,19 @@
   <name>Com.Diverza.project1</name>
   <url>http://maven.apache.org</url>
   
+  <build>
+  <plugins>
+      <plugin>
+        <groupId>org.Apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M4</version>
+        <configuration>
+          <useSystemClassLoader>false</useSystemClassLoader>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
 <profiles>
   <profile>
   
