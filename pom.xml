@@ -15,7 +15,8 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M4</version>
         <configuration>
-          <useSystemClassLoader>false</useSystemClassLoader>
+        <printSumary>true</printSumary>
+          <useSystemClassLoader>true</useSystemClassLoader>
         </configuration>
       </plugin>
     </plugins>
