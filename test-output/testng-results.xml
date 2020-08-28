@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="238" started-at="2020-08-28T20:25:57Z" finished-at="2020-08-28T20:25:57Z">
+  <suite name="Default suite" duration-ms="257" started-at="2020-08-28T20:35:45Z" finished-at="2020-08-28T20:35:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="238" started-at="2020-08-28T20:25:57Z" finished-at="2020-08-28T20:25:57Z">
+    <test name="Default test" duration-ms="257" started-at="2020-08-28T20:35:45Z" finished-at="2020-08-28T20:35:45Z">
       <class name="com.mkyong.busonfiscal.BusquedaReportesTest10">
-        <test-method status="FAIL" signature="initiaLiseBrowser()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="initiaLiseBrowser" is-config="true" duration-ms="172" started-at="2020-08-28T20:25:57Z" finished-at="2020-08-28T20:25:57Z">
+        <test-method status="FAIL" signature="initiaLiseBrowser()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="initiaLiseBrowser" is-config="true" duration-ms="190" started-at="2020-08-28T20:35:45Z" finished-at="2020-08-28T20:35:45Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable does not exist: /Users/lisandrosilva/Documents/Drivers/chromedriver]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiaLiseBrowser -->
-        <test-method status="SKIP" signature="busquedaDeReportes10()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="busquedaDeReportes10" duration-ms="0" started-at="2020-08-28T20:25:57Z" finished-at="2020-08-28T20:25:57Z">
+        <test-method status="SKIP" signature="busquedaDeReportes10()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="busquedaDeReportes10" duration-ms="0" started-at="2020-08-28T20:35:45Z" finished-at="2020-08-28T20:35:45Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The driver executable does not exist: /Users/lisandrosilva/Documents/Drivers/chromedriver]]>
@@ -101,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- busquedaDeReportes10 -->
-        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-28T20:25:57Z" finished-at="2020-08-28T20:25:57Z">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.mkyong.busonfiscal.BusquedaReportesTest10@5ec0a365]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-08-28T20:35:45Z" finished-at="2020-08-28T20:35:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
