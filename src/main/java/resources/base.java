@@ -41,7 +41,7 @@ public class base {
 		if (browserName.equals("Chrome")){
 			//Execute
 		
-			System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver 6");
+			System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver ");
 			//ChromeOptions options = new ChromeOptions();
 			 driver = new ChromeDriver();
 		}
