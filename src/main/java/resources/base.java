@@ -38,22 +38,23 @@ public class base {
 		
 		System.out.println(browserName);
 		
-		if (browserName.equals("Chrome")){
-			//Execute
+		if (browserName.contains("Chrome")){
+		//Execute
 		
 			System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver ");
 			//ChromeOptions options = new ChromeOptions();
-			 driver = new ChromeDriver();
+			     // options.addArguments("--headless");
+		         driver = new ChromeDriver();
 		}
 		
-//		 if(browserName.equals("headless")) {
+//		 if(browserName.equals("Chromeheadless")) {
 //				System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver 5");
 //				ChromeOptions options = new ChromeOptions();
 //	             options.addArguments("--headless");
-//	             options.addArguments("--disable-gpu");
+//	             //options.addArguments("--disable-gpu");
 //	             driver = new ChromeDriver(options);	
 //	    }            
-			
+//			
 			    
 
 		else if (browserName.equals("Safari")) {

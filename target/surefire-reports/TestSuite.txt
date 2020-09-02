@@ -1,135 +1,76 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 100, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 3,501.003 s <<< FAILURE! - in TestSuite
-com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.reportesEmitidosCancelacion  Time elapsed: 17.128 s  <<< FAILURE!
+Tests run: 100, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 4,426.748 s <<< FAILURE! - in TestSuite
+com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.reportesEmitidosCancelacion  Time elapsed: 22.203 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Aceptar')]"}
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:51789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 78fee8cb7a43fd3623da34a677f88025
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b7166976ba67ca6e30b755df7acb68b0
 *** Element info: {Using=xpath, value=//button[contains(text(),'Aceptar')]}
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.reportesEmitidosCancelacion(ReportesEmitidosCancelacionTest4.java:72)
 
-com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.facturaAdendaMultiAssistencia  Time elapsed: 36.069 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Documento emitido correctamente.')] (tried for 15 second(s) with 500 milliseconds interval)
-	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.facturaAdendaMultiAssistencia(FacturaAdendaMultiAssistenciaTest.java:110)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Documento emitido correctamente.')]"}
-  (Session info: chrome=84.0.4147.135)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 61f31287825f0d30bd0f274fc21e8fd3
-*** Element info: {Using=xpath, value=//div[contains(text(),'Documento emitido correctamente.')]}
-	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.facturaAdendaMultiAssistencia(FacturaAdendaMultiAssistenciaTest.java:110)
-
-com.mkyong.buson.jes.VehiculosUsadosJesTest.vehiculosUsadosJes  Time elapsed: 7.44 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.facturaBasicaDetailJes  Time elapsed: 5.895 s  <<< FAILURE!
 org.openqa.selenium.ElementClickInterceptedException: 
 element click intercepted: Element is not clickable at point (1291, 285)
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53848}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 597af152d8423f0a33f39faf05084e03
-	at com.mkyong.buson.jes.VehiculosUsadosJesTest.vehiculosUsadosJes(VehiculosUsadosJesTest.java:56)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ac95b3531c6794aeffc952ae5c03d76
+	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.facturaBasicaDetailJes(FacturaBasicaJesDetailTest.java:59)
 
-com.mkyong.conector.jes.FacturaBasicaJesTest.basePageNavigation  Time elapsed: 7.903 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1291, 285)
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b4f92befa1658f42049fc58629da7ff1
-	at com.mkyong.conector.jes.FacturaBasicaJesTest.basePageNavigation(FacturaBasicaJesTest.java:55)
-
-com.mkyong.conciliacion.conector.ConciliacionTest5.conciliacionFiscal1  Time elapsed: 36.478 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <text stroke="#000" font-weight="bold" text-anchor="middle" alignment-baseline="central" font-family="Helvetica, Arial, sans-serif" font-size="35" y="30" x="30" style="font-size:26px" stroke-width="0" fill="#1497e8">...</text> is not clickable at point (1139, 43). Other element would receive the click: <div class="page-loader" style="opacity: 0.0736799;">...</div>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: df9ab59e0ee4e6050947e754820c6059
-	at com.mkyong.conciliacion.conector.ConciliacionTest5.conciliacionFiscal1(ConciliacionTest5.java:100)
-
-com.mkyong.conciliacion.conector.ConciliacionTest62.conciliacionFiscal1  Time elapsed: 49.825 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest62.conciliacionFiscal1  Time elapsed: 54.658 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0fb50a53179480e435ae0dac0516b4db
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d8f60cf8f376914269d6d2a70f11a415
 	at com.mkyong.conciliacion.conector.ConciliacionTest62.conciliacionFiscal1(ConciliacionTest62.java:103)
 
-com.mkyong.conciliacion.conector.ConciliacionTest63.conciliacionFiscal1  Time elapsed: 48.171 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest63.conciliacionFiscal1  Time elapsed: 52.28 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f5f44c670352bac523f6a8b1795fc668
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d311d78e0af4fd034ef3ed8912da7020
 	at com.mkyong.conciliacion.conector.ConciliacionTest63.conciliacionFiscal1(ConciliacionTest63.java:103)
 
-com.mkyong.conciliacion.conector.ConciliacionTest64.conciliacionFiscal1  Time elapsed: 50.102 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest64.conciliacionFiscal1  Time elapsed: 51.547 s  <<< FAILURE!
 org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ad3f3833d533f62f7fa2289e336f5bc3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 33571e087bf9ee408439c7837892d4d3
 	at com.mkyong.conciliacion.conector.ConciliacionTest64.conciliacionFiscal1(ConciliacionTest64.java:103)
 
-com.mkyong.conciliacion.conector.ConciliacionTest65.conciliacionFiscal1  Time elapsed: 36.093 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <text stroke="#000" font-weight="bold" text-anchor="middle" alignment-baseline="central" font-family="Helvetica, Arial, sans-serif" font-size="35" y="30" x="30" style="font-size:26px" stroke-width="0" fill="#1497e8">...</text> is not clickable at point (1139, 43). Other element would receive the click: <div class="page-loader" style="opacity: 0.815676;">...</div>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e580cea30028eeabb6697f32b3931145
-	at com.mkyong.conciliacion.conector.ConciliacionTest65.conciliacionFiscal1(ConciliacionTest65.java:100)
-
-com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes  Time elapsed: 34.556 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes  Time elapsed: 34.518 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Documento emitido correctamente.')] (tried for 10 second(s) with 500 milliseconds interval)
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes(FacturaAdendaMultiAssistenciaJesDetailTest.java:179)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Documento emitido correctamente.')]"}
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8969bea84afc7af5d712136a9b97e269
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ff6dae2f73ce28528adde671769aa65
 *** Element info: {Using=xpath, value=//div[contains(text(),'Documento emitido correctamente.')]}
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes(FacturaAdendaMultiAssistenciaJesDetailTest.java:179)
-
-com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.vehiculosUsadosDetailJes  Time elapsed: 4.835 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1386, 272)
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71787d483ebdc3c277ec347f997d50fe
-	at com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.vehiculosUsadosDetailJes(VehiculosUsadosJesDetailTest.java:61)
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3,501.003" tests="100" errors="0" skipped="0" failures="11">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4,426.748" tests="100" errors="0" skipped="0" failures="6">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="webdriver.chrome.driver" value="/Users/lisandrosilva/Documents/Drivers/chromedriver 6"/>
+    <property name="webdriver.chrome.driver" value="/Users/lisandrosilva/Documents/Drivers/chromedriver "/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/test-classes:/Users/lisandrosilva/Com.Diverza.project1/target/classes:/Users/lisandrosilva/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/lisandrosilva/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lisandrosilva/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/lisandrosilva/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/lisandrosilva/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lisandrosilva/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lisandrosilva/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/lisandrosilva/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/lisandrosilva/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/lisandrosilva/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/lisandrosilva/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/lisandrosilva/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar:/Users/lisandrosilva/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lisandrosilva/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lisandrosilva/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lisandrosilva/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/lisandrosilva/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/lisandrosilva/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/lisandrosilva/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/lisandrosilva/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/lisandrosilva/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:"/>
+    <property name="java.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/test-classes:/Users/lisandrosilva/Com.Diverza.project1/target/classes:/Users/lisandrosilva/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/lisandrosilva/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lisandrosilva/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/lisandrosilva/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/lisandrosilva/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lisandrosilva/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lisandrosilva/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/lisandrosilva/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/lisandrosilva/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/lisandrosilva/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/lisandrosilva/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lisandrosilva/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lisandrosilva/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lisandrosilva/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/lisandrosilva/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/lisandrosilva/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/lisandrosilva/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/lisandrosilva/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/lisandrosilva/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -20,9 +20,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter859189023017691816.jar /Users/lisandrosilva/Com.Diverza.project1/target/surefire 2020-08-28T12-57-44_164-jvmRun1 surefire6827389544507528060tmp surefire_01976770410389380020tmp"/>
+    <property name="sun.java.command" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter1539554896623357568.jar /Users/lisandrosilva/Com.Diverza.project1/target/surefire 2020-09-01T11-21-11_183-jvmRun1 surefire918517456454371793tmp surefire_06665977684647269214tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/test-classes:/Users/lisandrosilva/Com.Diverza.project1/target/classes:/Users/lisandrosilva/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/lisandrosilva/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lisandrosilva/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/lisandrosilva/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/lisandrosilva/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lisandrosilva/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lisandrosilva/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/lisandrosilva/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/lisandrosilva/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/lisandrosilva/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/2.19.1/maven-surefire-plugin-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/maven-surefire-common/2.19.1/maven-surefire-common-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-booter/2.19.1/surefire-booter-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/Users/lisandrosilva/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/Users/lisandrosilva/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-api/2.19.1/surefire-api-2.19.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar:/Users/lisandrosilva/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lisandrosilva/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lisandrosilva/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lisandrosilva/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/lisandrosilva/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/lisandrosilva/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/lisandrosilva/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/lisandrosilva/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/lisandrosilva/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/test-classes:/Users/lisandrosilva/Com.Diverza.project1/target/classes:/Users/lisandrosilva/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/lisandrosilva/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lisandrosilva/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/lisandrosilva/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/lisandrosilva/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lisandrosilva/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lisandrosilva/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/lisandrosilva/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/lisandrosilva/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/lisandrosilva/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/lisandrosilva/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lisandrosilva/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lisandrosilva/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lisandrosilva/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/lisandrosilva/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/lisandrosilva/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/lisandrosilva/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/lisandrosilva/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/lisandrosilva/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/lisandrosilva"/>
     <property name="user.language" value="en"/>
@@ -34,14 +34,14 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter859189023017691816.jar"/>
+    <property name="surefire.real.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter1539554896623357568.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
     <property name="user.name" value="lisandrosilva"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="10.15.2"/>
+    <property name="os.version" value="10.15.6"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -64,187 +64,1479 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="serviciosBuzon" classname="com.mkyong.busonfiscal.HomePageBusonTest" time="87.766"/>
-  <testcase name="asignaturaClienteProducto" classname="com.mkyong.busonfiscal.ClientProductoTest" time="45.548"/>
-  <testcase name="reportesEmitidos3" classname="com.mkyong.busonfiscal.ReportesEmitidosTest3" time="37.74"/>
-  <testcase name="reportesEmitidosCancelacion2" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3" time="22.017"/>
-  <testcase name="reportesEmitidosCancelacion" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4" time="17.128">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Aceptar&apos;)]&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:51789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 78fee8cb7a43fd3623da34a677f88025&#10;*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Aceptar&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+  <testcase name="serviciosBuzon" classname="com.mkyong.busonfiscal.HomePageBusonTest" time="115.956">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46358
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977372.361][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:22:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="asignaturaClienteProducto" classname="com.mkyong.busonfiscal.ClientProductoTest" time="46.109">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 32899
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977534.212][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:25:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reportesEmitidos3" classname="com.mkyong.busonfiscal.ReportesEmitidosTest3" time="46.689">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 5576
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977602.650][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:26:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reportesEmitidosCancelacion2" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3" time="25.369">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 9016
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977665.271][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:27:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reportesEmitidosCancelacion" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4" time="22.203">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Aceptar&apos;)]&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b7166976ba67ca6e30b755df7acb68b0&#10;*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Aceptar&apos;)]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'Aceptar')]"}
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:51789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 78fee8cb7a43fd3623da34a677f88025
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:50419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b7166976ba67ca6e30b755df7acb68b0
 *** Element info: {Using=xpath, value=//button[contains(text(),'Aceptar')]}
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.reportesEmitidosCancelacion(ReportesEmitidosCancelacionTest4.java:72)
 ]]></failure>
     <system-out><![CDATA[Chrome
-Continue the operation
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43134
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43908
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:01:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598977710.902][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:28:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testPassword" classname="com.mkyong.busonfiscal.PasswordTest" time="1.315"/>
-  <testcase name="correoSimples" classname="com.mkyong.busonfiscal.EmailTest" time="0.795"/>
-  <testcase name="correoContrasena" classname="com.mkyong.busonfiscal.EmailAndPasswordTest" time="0.779"/>
-  <testcase name="correoContrasenaCorreta" classname="com.mkyong.busonfiscal.EmailPasswordCorrectTest" time="7.549"/>
-  <testcase name="duplicadoFacturaBasica" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3" time="30.503"/>
-  <testcase name="duplicadoLeyendasFiscalesNotificado" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2" time="20.54"/>
-  <testcase name="busquedaDeReportes5" classname="com.mkyong.busonfiscal.BusquedaReportesTest5" time="21.924"/>
-  <testcase name="busquedaDeReportes4" classname="com.mkyong.busonfiscal.BusquedaReportesTest4" time="33.961"/>
-  <testcase name="busquedaDeReportes3" classname="com.mkyong.busonfiscal.BusquedaReportesTest3" time="36.16"/>
-  <testcase name="buquedaDeReportes2" classname="com.mkyong.busonfiscal.BusquedaReportesTest2" time="15.843"/>
-  <testcase name="busquedaDeReportes6" classname="com.mkyong.busonfiscal.BusquedaReportesTest6" time="30.347"/>
-  <testcase name="busquedaDeReportes7" classname="com.mkyong.busonfiscal.BusquedaReportesTest7" time="33.375"/>
-  <testcase name="busquedaDeReportes8" classname="com.mkyong.busonfiscal.BusquedaReportesTest8" time="12.358"/>
-  <testcase name="busquedaDeReportes9" classname="com.mkyong.busonfiscal.BusquedaReportesTest9" time="12.377"/>
-  <testcase name="busquedaDeReportes10" classname="com.mkyong.busonfiscal.BusquedaReportesTest10" time="13.206"/>
-  <testcase name="busquedaDereportes11" classname="com.mkyong.busonfiscal.BusquedaReportesTest11" time="23.625"/>
-  <testcase name="busquedaDereportes12" classname="com.mkyong.busonfiscal.BusquedaReportesTest12" time="13.05"/>
-  <testcase name="busquedaDeReportes14" classname="com.mkyong.busonfiscal.BusquedaReportesTest14" time="29.357"/>
-  <testcase name="busquedaDeReportes15" classname="com.mkyong.busonfiscal.BusquedaReportesTest15" time="43.454"/>
-  <testcase name="reportesemitidos5" classname="com.mkyong.busonfiscal.ReportesEmitidosTest5" time="24.094"/>
-  <testcase name="reportesEmitidos4" classname="com.mkyong.busonfiscal.ReportesEmitidosTest4" time="29.216"/>
-  <testcase name="facturaBasica" classname="com.mkyong.busonfiscal.FacturaBasicaTest" time="15.807"/>
-  <testcase name="facturaCartaPorte" classname="com.mkyong.busonfiscal.FacturaCartaPorteTest" time="11.656"/>
-  <testcase name="facturaPago" classname="com.mkyong.busonfiscal.FacturaPagoTest" time="13.095"/>
-  <testcase name="notaDeCredito" classname="com.mkyong.busonfiscal.NotaDeCreditoTest" time="12.47"/>
-  <testcase name="facturaDetallista" classname="com.mkyong.busonfiscal.FacturaDetallistaTest" time="18.396"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.busonfiscal.ImpuestosLocalesTest" time="17.031"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.busonfiscal.INETest" time="18.438"/>
-  <testcase name="instituiciones1" classname="com.mkyong.busonfiscal.InstituicionesEducativasTest" time="12.876"/>
-  <testcase name="leyendas1" classname="com.mkyong.busonfiscal.LeyendasFiscalesTest" time="12.968"/>
-  <testcase name="serviciosParcealesDeConstrucion" classname="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest" time="13.87"/>
-  <testcase name="turistaPassajeroExtranjero" classname="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest" time="13.672"/>
-  <testcase name="vehiculosUsados" classname="com.mkyong.busonfiscal.VehiculosUsadosTest" time="15.566"/>
-  <testcase name="ventaDeVehiculos" classname="com.mkyong.busonfiscal.VentaDeVehiculosTest" time="15.164"/>
-  <testcase name="donativosSimples" classname="com.mkyong.busonfiscal.DonativosTest" time="14.618"/>
-  <testcase name="notariosPublicos1" classname="com.mkyong.busonfiscal.NotariosPublicosTest" time="20.346"/>
-  <testcase name="obrasArtesAnteguedad1" classname="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest" time="20.23"/>
-  <testcase name="pagoEnEspecies1" classname="com.mkyong.busonfiscal.PagoEnEspeciesTest" time="14.192"/>
-  <testcase name="personasFisicas1" classname="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest" time="14.415"/>
-  <testcase name="facturaAdendaMultiAssistencia" classname="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest" time="36.069">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),&apos;Documento emitido correctamente.&apos;)] (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Documento emitido correctamente.')] (tried for 15 second(s) with 500 milliseconds interval)
-	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.facturaAdendaMultiAssistencia(FacturaAdendaMultiAssistenciaTest.java:110)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Documento emitido correctamente.')]"}
-  (Session info: chrome=84.0.4147.135)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 61f31287825f0d30bd0f274fc21e8fd3
-*** Element info: {Using=xpath, value=//div[contains(text(),'Documento emitido correctamente.')]}
-	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.facturaAdendaMultiAssistencia(FacturaAdendaMultiAssistenciaTest.java:110)
-]]></failure>
-    <system-out><![CDATA[Chrome
-Continue the operation
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 19644
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 28, 2020 1:19:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="facturaBasicaDetail" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest" time="31.601"/>
-  <testcase name="facturaBasicaDetail2" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2" time="43.139"/>
-  <testcase name="facturaCartaPorteDetail" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest" time="23.007"/>
-  <testcase name="facturaCartaPorteDetail2" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2" time="32.667"/>
-  <testcase name="facturaDetallistaDetail2" classname="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2" time="26.608"/>
-  <testcase name="nominaFiscalDescarga" classname="com.mkyong.nomina.NominaFiscalDescargaTest" time="30.774"/>
-  <testcase name="nominaFiscal" classname="com.mkyong.nomina.NominaFiscalTest" time="59.581"/>
-  <testcase name="facturaBasicaGratis2" classname="com.mkyong.busongratis.FacturaBasicaGratisTest2" time="21.874"/>
-  <testcase name="cartaPorteGratisSimpl2" classname="com.mkyong.busongratis.FacturaCartaPorteGratisTest2" time="25.743"/>
-  <testcase name="pagoGratis2" classname="com.mkyong.busongratis.FacturaPagoGratisTest2" time="20.088"/>
-  <testcase name="impressionFiscal3" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3" time="45.744"/>
-  <testcase name="impressionFiscal4" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4" time="43.203"/>
-  <testcase name="impressionFiscal5" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5" time="43.712"/>
-  <testcase name="facturaBasicaJesTest" classname="com.mkyong.buson.jes.FacturaBasicaJesTest" time="19.048"/>
-  <testcase name="facturaCartaPorte" classname="com.mkyong.buson.jes.FacturaCartaPorteJesTest" time="14.28"/>
-  <testcase name="facturaDetallista" classname="com.mkyong.buson.jes.FacturaDetallistaJesTest" time="19.266"/>
-  <testcase name="facturaPagoJes" classname="com.mkyong.buson.jes.FacturaPagoJesTest" time="15.306"/>
-  <testcase name="impuestosLocalesJesBuzon" classname="com.mkyong.buson.jes.ImpuestosLocalesJesTest" time="18.246"/>
-  <testcase name="ineJes" classname="com.mkyong.buson.jes.INEJesTest" time="16.577"/>
-  <testcase name="instituicionesEducativasJes" classname="com.mkyong.buson.jes.InstituicionesEducativasJesTest" time="15.845"/>
-  <testcase name="notaDeCreditoJes" classname="com.mkyong.buson.jes.NotaDeCreditoJesTest" time="15.633"/>
-  <testcase name="pagoEnEspeciesJes" classname="com.mkyong.buson.jes.PagoEnEspeciesJesTest" time="16.307"/>
-  <testcase name="vehiculosUsadosJes" classname="com.mkyong.buson.jes.VehiculosUsadosJesTest" time="7.44">
-    <failure message="element click intercepted: Element is not clickable at point (1291, 285)&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53848}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 597af152d8423f0a33f39faf05084e03" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1291, 285)
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53848}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 597af152d8423f0a33f39faf05084e03
-	at com.mkyong.buson.jes.VehiculosUsadosJesTest.vehiculosUsadosJes(VehiculosUsadosJesTest.java:56)
-]]></failure>
+  <testcase name="testPassword" classname="com.mkyong.busonfiscal.PasswordTest" time="0.774">
     <system-out><![CDATA[Chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23980
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18125
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:35:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598977748.028][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:29:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="obrasArtesAnteguedadJes" classname="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest" time="16.9"/>
-  <testcase name="facturaBasicaDetailJes" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="30.914"/>
-  <testcase name="facturaBasicaDetailJes" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="33.435"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaBasicaJesTest" time="7.903">
-    <failure message="element click intercepted: Element is not clickable at point (1291, 285)&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b4f92befa1658f42049fc58629da7ff1" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1291, 285)
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: b4f92befa1658f42049fc58629da7ff1
-	at com.mkyong.conector.jes.FacturaBasicaJesTest.basePageNavigation(FacturaBasicaJesTest.java:55)
-]]></failure>
+  <testcase name="correoSimples" classname="com.mkyong.busonfiscal.EmailTest" time="0.928">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 44786
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977765.212][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:29:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="correoContrasena" classname="com.mkyong.busonfiscal.EmailAndPasswordTest" time="0.745">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1180
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977772.479][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:29:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="correoContrasenaCorreta" classname="com.mkyong.busonfiscal.EmailPasswordCorrectTest" time="8.217">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26466
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977785.000][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:29:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="duplicadoFacturaBasica" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3" time="37.252">
+    <system-out><![CDATA[Chrome
+Estatus Pendiente Com Problemas
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37516
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977798.100][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:29:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="duplicadoLeyendasFiscalesNotificado" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2" time="23.721">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 12990
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977848.338][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:30:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes5" classname="com.mkyong.busonfiscal.BusquedaReportesTest5" time="27.918">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977882.313][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:31:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes4" classname="com.mkyong.busonfiscal.BusquedaReportesTest4" time="38.479">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 40093
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977920.770][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:32:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes3" classname="com.mkyong.busonfiscal.BusquedaReportesTest3" time="46.334">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30149
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598977973.947][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:32:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="buquedaDeReportes2" classname="com.mkyong.busonfiscal.BusquedaReportesTest2" time="24.729">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 47181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978039.473][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:33:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes6" classname="com.mkyong.busonfiscal.BusquedaReportesTest6" time="38.538">
+    <system-out><![CDATA[Chrome
+FNX. | buzón fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 33346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978084.302][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:34:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes7" classname="com.mkyong.busonfiscal.BusquedaReportesTest7" time="41.519">
+    <system-out><![CDATA[Chrome
+FNX. | buzón fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34371
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978147.210][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:35:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes8" classname="com.mkyong.busonfiscal.BusquedaReportesTest8" time="16.43">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 2338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978211.332][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:36:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes9" classname="com.mkyong.busonfiscal.BusquedaReportesTest9" time="17.324">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43405
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978236.786][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:37:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes10" classname="com.mkyong.busonfiscal.BusquedaReportesTest10" time="18.779">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6552
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978258.806][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:37:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDereportes11" classname="com.mkyong.busonfiscal.BusquedaReportesTest11" time="31.063">
+    <system-out><![CDATA[Chrome
+FNX. | buzón fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39397
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978284.963][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:38:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDereportes12" classname="com.mkyong.busonfiscal.BusquedaReportesTest12" time="17.393">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37967
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978325.397][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:38:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes14" classname="com.mkyong.busonfiscal.BusquedaReportesTest14" time="33.326">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14516
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978348.894][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:39:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="busquedaDeReportes15" classname="com.mkyong.busonfiscal.BusquedaReportesTest15" time="47.298">
+    <system-out><![CDATA[Chrome
+FNX. | buzón fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 47512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978395.660][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:39:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reportesemitidos5" classname="com.mkyong.busonfiscal.ReportesEmitidosTest5" time="30.145">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29647
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978466.373][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:41:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="reportesEmitidos4" classname="com.mkyong.busonfiscal.ReportesEmitidosTest4" time="35.793">
+    <system-out><![CDATA[Chrome
+FNX. | buzón fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 47950
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978503.132][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:41:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasica" classname="com.mkyong.busonfiscal.FacturaBasicaTest" time="17.209">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1978
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978549.182][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:42:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaCartaPorte" classname="com.mkyong.busonfiscal.FacturaCartaPorteTest" time="16.702">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25699
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978588.567][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:43:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaPago" classname="com.mkyong.busonfiscal.FacturaPagoTest" time="18.412">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 11538
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978627.879][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:43:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="notaDeCredito" classname="com.mkyong.busonfiscal.NotaDeCreditoTest" time="14.618">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23751
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978671.369][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:44:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaDetallista" classname="com.mkyong.busonfiscal.FacturaDetallistaTest" time="19.693">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37837
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978709.067][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:45:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.busonfiscal.ImpuestosLocalesTest" time="20.275">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 41015
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978756.046][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:45:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.busonfiscal.INETest" time="26.27">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43497
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978801.313][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:46:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="instituiciones1" classname="com.mkyong.busonfiscal.InstituicionesEducativasTest" time="19.371">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30555
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978850.297][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:47:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="leyendas1" classname="com.mkyong.busonfiscal.LeyendasFiscalesTest" time="17.444">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978894.174][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:48:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="serviciosParcealesDeConstrucion" classname="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest" time="20.112">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27217
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978928.254][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:48:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="turistaPassajeroExtranjero" classname="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest" time="18.713">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598978972.684][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:49:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="vehiculosUsados" classname="com.mkyong.busonfiscal.VehiculosUsadosTest" time="24.02">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35856
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979008.416][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:50:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ventaDeVehiculos" classname="com.mkyong.busonfiscal.VentaDeVehiculosTest" time="16.69">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20875
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979051.671][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:50:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="donativosSimples" classname="com.mkyong.busonfiscal.DonativosTest" time="19.291">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979085.159][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:51:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="notariosPublicos1" classname="com.mkyong.busonfiscal.NotariosPublicosTest" time="26.64">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 41546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979122.247][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:52:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="obrasArtesAnteguedad1" classname="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest" time="22.983">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 36017
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979166.219][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:52:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pagoEnEspecies1" classname="com.mkyong.busonfiscal.PagoEnEspeciesTest" time="16.327">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 22484
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979203.991][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:53:24 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="personasFisicas1" classname="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest" time="21.145">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 7027
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979236.859][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:53:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaAdendaMultiAssistencia" classname="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest" time="21.407">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20122
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979275.993][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:54:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaDetail" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest" time="36.83">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 33359
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979315.732][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:55:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaDetail2" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2" time="46.927">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43840
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979378.042][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:56:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaCartaPorteDetail" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest" time="27.56">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43437
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979443.887][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:57:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaCartaPorteDetail2" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2" time="44.421">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 45864
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979495.954][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:58:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaDetallistaDetail2" classname="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2" time="39.416">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31351
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979561.636][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 11:59:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="nominaFiscalDescarga" classname="com.mkyong.nomina.NominaFiscalDescargaTest" time="47.279">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46790
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979614.585][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:00:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="nominaFiscal" classname="com.mkyong.nomina.NominaFiscalTest" time="80.677">
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26578
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979672.731][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:01:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaGratis2" classname="com.mkyong.busongratis.FacturaBasicaGratisTest2" time="21.931">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 32459
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979768.045][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:02:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="cartaPorteGratisSimpl2" classname="com.mkyong.busongratis.FacturaCartaPorteGratisTest2" time="18.944">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46486
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979801.441][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:03:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pagoGratis2" classname="com.mkyong.busongratis.FacturaPagoGratisTest2" time="26.351">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39653
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979829.843][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:03:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="impressionFiscal3" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3" time="54.695">
+    <system-out><![CDATA[Chrome
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Superior Izquierda
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30186
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979862.454][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:04:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="impressionFiscal4" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4" time="50.97">
+    <system-out><![CDATA[Chrome
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Superior Izquierda
+
+Superior Centro
+
+Superior Derecha
+
+Inferior Izquierda
+
+Inferior Centro
+
+Inferior Derecha
+
+Sin paginación
+
+
+
+
+
+
+
+
+
+
+
+
+
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25598
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979928.829][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:05:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="impressionFiscal5" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5" time="49.842">
+    <system-out><![CDATA[Chrome
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Superior Izquierda
+
+Superior Centro
+40
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+
+3
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31041
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598979991.795][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:06:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaJesTest" classname="com.mkyong.buson.jes.FacturaBasicaJesTest" time="17.598">
     <system-out><![CDATA[Chrome
 Element is displayed
+x
+Documento emitido correctamente.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 28293
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35259
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:36:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598980059.664][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:07:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaCartaPorteJesTest" time="13.908"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaDetallistaJesTest" time="18.069"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest" time="13.902"/>
-  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.PagoEnEspeciesJesTest" time="13.938"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest10" time="33.977"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest11" time="34.385"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest13" time="37.117"/>
-  <testcase name="conciliacionFiscal3" classname="com.mkyong.conciliacion.conector.ConciliacionTest3" time="36.116"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest4" time="36.363"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest5" time="36.478">
-    <failure message="element click intercepted: Element &lt;text stroke=&quot;#000&quot; font-weight=&quot;bold&quot; text-anchor=&quot;middle&quot; alignment-baseline=&quot;central&quot; font-family=&quot;Helvetica, Arial, sans-serif&quot; font-size=&quot;35&quot; y=&quot;30&quot; x=&quot;30&quot; style=&quot;font-size:26px&quot; stroke-width=&quot;0&quot; fill=&quot;#1497e8&quot;&gt;...&lt;/text&gt; is not clickable at point (1139, 43). Other element would receive the click: &lt;div class=&quot;page-loader&quot; style=&quot;opacity: 0.0736799;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: df9ab59e0ee4e6050947e754820c6059" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <text stroke="#000" font-weight="bold" text-anchor="middle" alignment-baseline="central" font-family="Helvetica, Arial, sans-serif" font-size="35" y="30" x="30" style="font-size:26px" stroke-width="0" fill="#1497e8">...</text> is not clickable at point (1139, 43). Other element would receive the click: <div class="page-loader" style="opacity: 0.0736799;">...</div>
-  (Session info: chrome=84.0.4147.135)
+  <testcase name="facturaCartaPorte" classname="com.mkyong.buson.jes.FacturaCartaPorteJesTest" time="17.995">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 33829
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980087.762][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:08:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaDetallista" classname="com.mkyong.buson.jes.FacturaDetallistaJesTest" time="21.543">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35881
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980115.886][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:08:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaPagoJes" classname="com.mkyong.buson.jes.FacturaPagoJesTest" time="18.315">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 7833
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980155.483][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:09:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="impuestosLocalesJesBuzon" classname="com.mkyong.buson.jes.ImpuestosLocalesJesTest" time="20.816">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4995
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980187.315][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:09:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ineJes" classname="com.mkyong.buson.jes.INEJesTest" time="21.39">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25344
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980216.320][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:10:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="instituicionesEducativasJes" classname="com.mkyong.buson.jes.InstituicionesEducativasJesTest" time="17.581">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 17920
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980251.457][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:10:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="notaDeCreditoJes" classname="com.mkyong.buson.jes.NotaDeCreditoJesTest" time="16.846">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 42384
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980276.467][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:11:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="pagoEnEspeciesJes" classname="com.mkyong.buson.jes.PagoEnEspeciesJesTest" time="18.801">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 13000
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980302.434][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:11:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="vehiculosUsadosJes" classname="com.mkyong.buson.jes.VehiculosUsadosJesTest" time="18.698">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 40680
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980330.151][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:12:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="obrasArtesAnteguedadJes" classname="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest" time="20.424">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27634
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980364.178][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:12:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaDetailJes" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="5.895">
+    <failure message="element click intercepted: Element is not clickable at point (1291, 285)&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7ac95b3531c6794aeffc952ae5c03d76" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1291, 285)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: df9ab59e0ee4e6050947e754820c6059
-	at com.mkyong.conciliacion.conector.ConciliacionTest5.conciliacionFiscal1(ConciliacionTest5.java:100)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7ac95b3531c6794aeffc952ae5c03d76
+	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.facturaBasicaDetailJes(FacturaBasicaJesDetailTest.java:59)
 ]]></failure>
+    <system-out><![CDATA[Chrome
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 16111
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980390.446][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:13:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaBasicaDetailJes" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="32.647">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 27239
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981291.831][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:28:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaBasicaJesTest" time="20.196">
+    <system-out><![CDATA[Chrome
+Element is displayed
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46172
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980402.823][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:13:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaCartaPorteJesTest" time="13.776">
+    <system-out><![CDATA[Chrome
+Element is displayed
+Continue with the operation
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 43215
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980429.555][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:13:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.FacturaDetallistaJesTest" time="17.52">
+    <system-out><![CDATA[Chrome
+Element is displayed
+Continue with the operation
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30387
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980448.042][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:14:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest" time="13.75">
+    <system-out><![CDATA[Chrome
+Element is displayed
+Continue with the operation
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31918
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980477.796][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:14:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="com.mkyong.conector.jes.PagoEnEspeciesJesTest" time="15.542">
+    <system-out><![CDATA[Chrome
+Element is displayed
+Continue with the operation
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 21136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980496.327][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:14:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest10" time="36.703">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+8
+8
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 10935
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980516.852][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:15:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest11" time="36.247">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+8
+8
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+148
+FNX. | conector fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35815
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980559.871][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:16:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest13" time="37.092">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23937
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980603.564][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:16:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal3" classname="com.mkyong.conciliacion.conector.ConciliacionTest3" time="40.381">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8119
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980645.362][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:17:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest4" time="42.613">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 32662
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980691.276][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:18:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest5" time="38.702">
     <system-out><![CDATA[Chrome
 8
 8
@@ -262,23 +1554,24 @@ Session ID: df9ab59e0ee4e6050947e754820c6059
 124
 124
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 15859
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8068
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:41:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598980741.667][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:19:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest62" time="49.825">
-    <failure message="element not interactable&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0fb50a53179480e435ae0dac0516b4db" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest62" time="54.658">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d8f60cf8f376914269d6d2a70f11a415" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0fb50a53179480e435ae0dac0516b4db
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:52976}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d8f60cf8f376914269d6d2a70f11a415
 	at com.mkyong.conciliacion.conector.ConciliacionTest62.conciliacionFiscal1(ConciliacionTest62.java:103)
 ]]></failure>
     <system-out><![CDATA[Chrome
@@ -350,26 +1643,332 @@ Session ID: 0fb50a53179480e435ae0dac0516b4db
 124
 124
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 21176
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 12491
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:42:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598980790.706][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:19:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest32" time="40.352"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest33" time="43.021"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest34" time="39.169"/>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest63" time="48.171">
-    <failure message="element not interactable&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: f5f44c670352bac523f6a8b1795fc668" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest32" time="50.903">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+FNX. | conector fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25587
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980859.134][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:20:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest33" time="42.183">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25712
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980927.169][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:22:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest34" time="46.936">
+    <system-out><![CDATA[Chrome
+8
+8
+8
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+146
+FNX. | conector fiscal
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25600
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598980977.144][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:22:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest63" time="52.28">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d311d78e0af4fd034ef3ed8912da7020" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: f5f44c670352bac523f6a8b1795fc668
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d311d78e0af4fd034ef3ed8912da7020
 	at com.mkyong.conciliacion.conector.ConciliacionTest63.conciliacionFiscal1(ConciliacionTest63.java:103)
 ]]></failure>
     <system-out><![CDATA[Chrome
@@ -445,23 +2044,24 @@ Session ID: f5f44c670352bac523f6a8b1795fc668
 124
 124
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8036
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 32562
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:45:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598981031.682][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:23:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest64" time="50.102">
-    <failure message="element not interactable&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ad3f3833d533f62f7fa2289e336f5bc3" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest64" time="51.547">
+    <failure message="element not interactable&#10;  (Session info: chrome=85.0.4183.83)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 33571e087bf9ee408439c7837892d4d3" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
 element not interactable
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: ad3f3833d533f62f7fa2289e336f5bc3
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53178}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 33571e087bf9ee408439c7837892d4d3
 	at com.mkyong.conciliacion.conector.ConciliacionTest64.conciliacionFiscal1(ConciliacionTest64.java:103)
 ]]></failure>
     <system-out><![CDATA[Chrome
@@ -537,25 +2137,16 @@ Session ID: ad3f3833d533f62f7fa2289e336f5bc3
 124
 124
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 25064
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 18131
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598981092.476][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:24:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest65" time="36.093">
-    <failure message="element click intercepted: Element &lt;text stroke=&quot;#000&quot; font-weight=&quot;bold&quot; text-anchor=&quot;middle&quot; alignment-baseline=&quot;central&quot; font-family=&quot;Helvetica, Arial, sans-serif&quot; font-size=&quot;35&quot; y=&quot;30&quot; x=&quot;30&quot; style=&quot;font-size:26px&quot; stroke-width=&quot;0&quot; fill=&quot;#1497e8&quot;&gt;...&lt;/text&gt; is not clickable at point (1139, 43). Other element would receive the click: &lt;div class=&quot;page-loader&quot; style=&quot;opacity: 0.815676;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e580cea30028eeabb6697f32b3931145" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element <text stroke="#000" font-weight="bold" text-anchor="middle" alignment-baseline="central" font-family="Helvetica, Arial, sans-serif" font-size="35" y="30" x="30" style="font-size:26px" stroke-width="0" fill="#1497e8">...</text> is not clickable at point (1139, 43). Other element would receive the click: <div class="page-loader" style="opacity: 0.815676;">...</div>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e580cea30028eeabb6697f32b3931145
-	at com.mkyong.conciliacion.conector.ConciliacionTest65.conciliacionFiscal1(ConciliacionTest65.java:100)
-]]></failure>
+  <testcase name="conciliacionFiscal1" classname="com.mkyong.conciliacion.conector.ConciliacionTest65" time="41.912">
     <system-out><![CDATA[Chrome
 8
 8
@@ -608,66 +2199,178 @@ Session ID: e580cea30028eeabb6697f32b3931145
 148
 148
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 7670
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4432
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:47:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598981154.830][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="donativosDetailJes" classname="com.mkyong.buson.jes.detail.DonativosJesDetailTest" time="31.882"/>
-  <testcase name="facturaAdendaMultAssistDetailJes" classname="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest" time="34.556">
+  <testcase name="donativosDetailJes" classname="com.mkyong.buson.jes.detail.DonativosJesDetailTest" time="32.87">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31994
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981207.534][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:26:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaAdendaMultAssistDetailJes" classname="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest" time="34.518">
     <failure message="Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),&apos;Documento emitido correctamente.&apos;)] (tried for 10 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Documento emitido correctamente.')] (tried for 10 second(s) with 500 milliseconds interval)
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes(FacturaAdendaMultiAssistenciaJesDetailTest.java:179)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Documento emitido correctamente.')]"}
-  (Session info: chrome=84.0.4147.135)
+  (Session info: chrome=85.0.4183.83)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
+System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_251'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54579}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8969bea84afc7af5d712136a9b97e269
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:53280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ff6dae2f73ce28528adde671769aa65
 *** Element info: {Using=xpath, value=//div[contains(text(),'Documento emitido correctamente.')]}
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.facturaAdendaMultAssistDetailJes(FacturaAdendaMultiAssistenciaJesDetailTest.java:179)
 ]]></failure>
     <system-out><![CDATA[Chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1208
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 22106
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:49:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598981249.211][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:27:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="facturaCartaPorteDetailJes" classname="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest" time="26.246"/>
-  <testcase name="facturaPagoDetailJes" classname="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest" time="23.487"/>
-  <testcase name="impuestosLocalesDetailJes" classname="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest" time="34.052"/>
-  <testcase name="ineDetailJes" classname="com.mkyong.buson.jes.detail.INEJesDetailTest" time="31.292"/>
-  <testcase name="instituicionesEducativasDetailJes" classname="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest" time="25.775"/>
-  <testcase name="leyendasFiscalesDetailJes" classname="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest" time="29.575"/>
-  <testcase name="notaDeCreditoDetailJes" classname="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest" time="30.246"/>
-  <testcase name="notariosPublicosDetailJes" classname="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest" time="39.693"/>
-  <testcase name="vehiculosUsadosDetailJes" classname="com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest" time="4.835">
-    <failure message="element click intercepted: Element is not clickable at point (1386, 272)&#10;  (Session info: chrome=84.0.4147.135)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Lisandro-Silva.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.2&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 71787d483ebdc3c277ec347f997d50fe" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (1386, 272)
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Lisandro-Silva.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/zd/xs0gg_pd749...}, goog:chromeOptions: {debuggerAddress: localhost:54908}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 71787d483ebdc3c277ec347f997d50fe
-	at com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.vehiculosUsadosDetailJes(VehiculosUsadosJesDetailTest.java:61)
-]]></failure>
+  <testcase name="facturaCartaPorteDetailJes" classname="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest" time="27.144">
     <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26704
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 5680
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Aug 28, 2020 1:55:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1598981335.151][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:28:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="facturaPagoDetailJes" classname="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest" time="23.518">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1715
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981367.942][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:29:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="impuestosLocalesDetailJes" classname="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest" time="37.167">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 49019
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981398.528][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:29:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ineDetailJes" classname="com.mkyong.buson.jes.detail.INEJesDetailTest" time="33.454">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 4213
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981446.452][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:30:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="instituicionesEducativasDetailJes" classname="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest" time="28.304">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 45455
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981485.346][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:31:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="leyendasFiscalesDetailJes" classname="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest" time="35.026">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26300
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981522.024][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:32:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="notaDeCreditoDetailJes" classname="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest" time="33.022">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39494
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981564.669][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:32:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="notariosPublicosDetailJes" classname="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest" time="45.243">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 34656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981609.873][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:33:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="vehiculosUsadosDetailJes" classname="com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest" time="33.839">
+    <system-out><![CDATA[Chrome
+x
+Documento emitido correctamente.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 3434
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598981670.725][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Sep 01, 2020 12:34:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
