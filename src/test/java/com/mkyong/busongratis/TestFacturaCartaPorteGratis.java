@@ -9,6 +9,7 @@ import com.mkyong.hashing.busonfiscal.LandingPageBuson;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -43,9 +44,16 @@ public class TestFacturaCartaPorteGratis extends base{
 		ld.ingPortal1().sendKeys("Diverza1*");
 		ld.ingPortal11().click();
 		LandingPage g = new LandingPage(driver);
-		Thread.sleep(2000);
-		g.ButtonFunk().click();
-		g.ButtonSUL().click();
+		boolean isDisplayed = driver.findElement(By.xpath("//*[text()='Nombre ApellidoP ApellidoM']")).isDisplayed();
+		if(isDisplayed==true) {
+			System.out.println("Continue the operation");
+		}else {
+			//LandingPage g = new LandingPage(driver);
+			Thread.sleep(2000);
+			g.MenuButton().click();
+			g.BottonApellido().click();
+		}
+		
 		Thread.sleep(2000);
 		ld.ingCrearCopr().click();
 		Thread.sleep(2000);

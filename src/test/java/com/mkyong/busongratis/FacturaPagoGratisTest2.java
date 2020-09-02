@@ -44,10 +44,16 @@ public class FacturaPagoGratisTest2 extends base{
 		ld.ingPortal1().sendKeys("Diverza1*");
 		ld.ingPortal11().click();
 		LandingPage g = new LandingPage(driver);
-		Thread.sleep(2000);
-		g.MenuButton().click();
-		g.ButtonSUL().click();
-		//Thread.sleep(3000);
+		boolean isDisplayed = driver.findElement(By.xpath("//*[text()='Nombre ApellidoP ApellidoM']")).isDisplayed();
+		if(isDisplayed==true) {
+			System.out.println("Continue the operation");
+		}else {
+			//LandingPage g = new LandingPage(driver);
+			Thread.sleep(2000);
+			g.MenuButton().click();
+			g.BottonApellido().click();
+		}
+		
 		ld.SideBar().click();
 		//Thread.sleep(2000);
 		ld.ingCrearCopr().click();

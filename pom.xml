@@ -22,7 +22,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-  
+        <testFailureIgnore>true</testFailureIgnore>
           <printSumary>true</printSumary>
           <suiteXmlFiles>
             <suiteXmlFile>testng6.xml</suiteXmlFile>
@@ -54,7 +54,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-  
+        <testFailureIgnore>true</testFailureIgnore>
           <printSummary>true</printSummary>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>

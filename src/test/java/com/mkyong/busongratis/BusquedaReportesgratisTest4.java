@@ -40,10 +40,16 @@ public class BusquedaReportesgratisTest4 extends base{
 		ld.ingPortal().sendKeys("lisandro.silva");
 		ld.ingPortal1().sendKeys("Diverza1*");
 		ld.ingPortal11().click();
-		LandingPage g = new LandingPage(driver);
-		Thread.sleep(2000);
-		g.ButtonFunk().click();
-		g.ButtonSUL().click();
+		boolean isDisplayed = driver.findElement(By.xpath("//*[text()='Nombre ApellidoP ApellidoM']")).isDisplayed();
+		if(isDisplayed==true) {
+			System.out.println("Continue the operation");
+		}else {
+			LandingPage g = new LandingPage(driver);
+			Thread.sleep(2000);
+			g.MenuButton().click();
+			g.BottonApellido().click();
+		}
+		
 		Thread.sleep(3000);
 		ld.EmitidoRFC().sendKeys("CACX7605101P8");
 		ld.Folio().sendKeys("11");

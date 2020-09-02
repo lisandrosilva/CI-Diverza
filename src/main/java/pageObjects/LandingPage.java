@@ -168,6 +168,8 @@ public class LandingPage {
         
       private  By BottonFunk = By.xpath("//div[contains(text(),'KARLA FUENTE ')]");
       
+      private By BottonApellido = By.xpath("//*[text()='Nombre ApellidoP ApellidoM']");
+      
       private By MenuButton = By.xpath("//div[@class='pull-left']");
         
       private By BottonMartin = By.xpath("//div[contains(text(),'Martin Arbaiza Quiroz')]"); 
@@ -238,7 +240,9 @@ public class LandingPage {
         
         
         
-        
+        public WebElement BottonApellido() {
+        	return driver.findElement(BottonApellido);
+        }
         public WebElement MenuButton() {
         	return driver.findElement(MenuButton);
         }

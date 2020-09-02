@@ -45,10 +45,16 @@ public class FacturaBasicaGratisTest2 extends base{
 		ld.ingPortal11().click();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		LandingPage g = new LandingPage(driver);
-		//Thread.sleep(2000);
-		g.MenuButton().click();
-		g.ButtonSUL().click();
-		//Thread.sleep(3000);
+		boolean isDisplayed = driver.findElement(By.xpath("//*[text()='Nombre ApellidoP ApellidoM']")).isDisplayed();
+		if(isDisplayed==true) {
+			System.out.println("Continue the operation");
+		}else {
+			//LandingPage g = new LandingPage(driver);
+			Thread.sleep(2000);
+			g.MenuButton().click();
+			g.BottonApellido().click();
+		}
+		
 		ld.SideBar().click();
 		//Thread.sleep(2000);
 		ld.ingCrearCopr().click();
