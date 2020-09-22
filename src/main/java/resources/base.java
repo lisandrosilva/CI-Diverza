@@ -38,21 +38,21 @@ public class base {
 		
 		System.out.println(browserName);
 		
-	if (browserName.contains("chrome"))
+	if (browserName.contains("Chrome"))
 	{
 		//Execute
 		
 			System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver ");
-			       ChromeOptions options = new ChromeOptions();
-			       
-	         if(browserName.contains("headless")) {
-
-                 options.addArguments("--headless");
-//	             //options.addArguments("--disable-gpu");
-	         }
-             
-	 driver = new ChromeDriver(options);	
-	   
+			      // ChromeOptions options = new ChromeOptions();
+			       driver = new ChromeDriver();
+//	         if(browserName.contains("headless")) {
+//
+//                 options.addArguments("--headless");
+////	             //options.addArguments("--disable-gpu");
+//	         }
+//             
+//	   driver = new ChromeDriver(options);	
+//	   
 		
 		}            
 		
