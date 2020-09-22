@@ -32,29 +32,30 @@ public class base {
 		
 		prop.load(file);
 		
-		String browserName = prop.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
 		//Field field = Class.getField("driver");
-		//String browserName = System.getProperty("browser");
+		String browserName = System.getProperty("browser");
 		
 		System.out.println(browserName);
 		
-		if (browserName.contains("Chrome")){
+	if (browserName.contains("chrome"))
+	{
 		//Execute
 		
 			System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver ");
-			//ChromeOptions options = new ChromeOptions();
-			     // options.addArguments("--headless");
-		         driver = new ChromeDriver();
-		}
-		
-//		 if(browserName.equals("Chromeheadless")) {
-//				System.setProperty("webdriver.chrome.driver","/Users/lisandrosilva/Documents/Drivers/chromedriver 5");
-//				ChromeOptions options = new ChromeOptions();
-//	             options.addArguments("--headless");
+			       ChromeOptions options = new ChromeOptions();
+			       
+	         if(browserName.contains("headless")) {
+
+                 options.addArguments("--headless");
 //	             //options.addArguments("--disable-gpu");
-//	             driver = new ChromeDriver(options);	
-//	    }            
-//			
+	         }
+             
+	 driver = new ChromeDriver(options);	
+	   
+		
+		}            
+		
 			    
 
 		else if (browserName.equals("Safari")) {
