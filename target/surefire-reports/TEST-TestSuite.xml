@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.384" tests="300" errors="0" skipped="200" failures="100">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.05" tests="300" errors="0" skipped="200" failures="100">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter4587427260969649233.jar /Users/lisandrosilva/Com.Diverza.project1/target/surefire 2020-09-22T14-14-03_072-jvmRun1 surefire7487011412239508085tmp surefire_08354440038906857491tmp"/>
+    <property name="sun.java.command" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter6262906767456604006.jar /Users/lisandrosilva/Com.Diverza.project1/target/surefire 2020-09-22T17-41-03_676-jvmRun1 surefire3737932201203123726tmp surefire_06240950558081919767tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/test-classes:/Users/lisandrosilva/Com.Diverza.project1/target/classes:/Users/lisandrosilva/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/lisandrosilva/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lisandrosilva/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/lisandrosilva/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/lisandrosilva/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/lisandrosilva/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lisandrosilva/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lisandrosilva/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lisandrosilva/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/lisandrosilva/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/lisandrosilva/.m2/repository/com/aventstack/extentreports/4.1.6/extentreports-4.1.6.jar:/Users/lisandrosilva/.m2/repository/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/lisandrosilva/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver/3.12.0/mongodb-driver-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/mongodb-driver-core/3.12.0/mongodb-driver-core-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/mongodb/bson/3.12.0/bson-3.12.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/lisandrosilva/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lisandrosilva/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lisandrosilva/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/lisandrosilva/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/lisandrosilva/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/lisandrosilva/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar:/Users/lisandrosilva/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/lisandrosilva/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/lisandrosilva/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-core/3.0/maven-core-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar:/Users/lisandrosilva/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/Users/lisandrosilva/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lisandrosilva/.m2/repository/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-java/0.9.10/plexus-java-0.9.10.jar:/Users/lisandrosilva/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar:/Users/lisandrosilva/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M8/qdox-2.0-M8.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-api/2.8.4/plexus-compiler-api-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-manager/2.8.4/plexus-compiler-manager-2.8.4.jar:/Users/lisandrosilva/.m2/repository/org/codehaus/plexus/plexus-compiler-javac/2.8.4/plexus-compiler-javac-2.8.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter4587427260969649233.jar"/>
+    <property name="surefire.real.class.path" value="/Users/lisandrosilva/Com.Diverza.project1/target/surefire/surefirebooter6262906767456604006.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -61,7 +61,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.HomePageBusonTest" time="0.905">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.HomePageBusonTest" time="0.8">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.HomePageBusonTest.initiaLiseBrowser(HomePageBusonTest.java:35)
 ]]></failure>
@@ -74,7 +74,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.HomePageBusonTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ClientProductoTest" time="0.957">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ClientProductoTest" time="0.893">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ClientProductoTest.initiaLiseBrowser(ClientProductoTest.java:26)
 ]]></failure>
@@ -87,7 +87,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ClientProductoTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest3" time="0.965">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest3" time="0.903">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest3.initiaLiseBrowser(ReportesEmitidosTest3.java:27)
 ]]></failure>
@@ -100,7 +100,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3" time="0.971">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3" time="0.911">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3.initiaLiseBrowser(ReportesEmitidosCancelacionTest3.java:29)
 ]]></failure>
@@ -113,7 +113,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4" time="0.979">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4" time="0.919">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.initiaLiseBrowser(ReportesEmitidosCancelacionTest4.java:28)
 ]]></failure>
@@ -126,7 +126,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PasswordTest" time="0.985">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PasswordTest" time="0.926">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PasswordTest.initiaLiseBrowser(PasswordTest.java:24)
 ]]></failure>
@@ -139,7 +139,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.PasswordTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailTest" time="0.991">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailTest" time="0.935">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailTest.initiaLiseBrowser(EmailTest.java:25)
 ]]></failure>
@@ -152,7 +152,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.EmailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailAndPasswordTest" time="0.999">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailAndPasswordTest" time="0.942">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailAndPasswordTest.initiaLiseBrowser(EmailAndPasswordTest.java:26)
 ]]></failure>
@@ -165,7 +165,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.EmailAndPasswordTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailPasswordCorrectTest" time="1.006">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.EmailPasswordCorrectTest" time="0.95">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailPasswordCorrectTest.initiaLiseBrowser(EmailPasswordCorrectTest.java:24)
 ]]></failure>
@@ -178,7 +178,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.EmailPasswordCorrectTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3" time="1.015">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3" time="0.958">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3.initiaLiseBrowser(ReportesEmitidosDuplicarComprobanteTest3.java:27)
 ]]></failure>
@@ -191,7 +191,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2" time="1.023">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2" time="0.964">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.initiaLiseBrowser(ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.java:27)
 ]]></failure>
@@ -204,7 +204,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest5" time="1.03">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest5" time="0.972">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest5.initiaLiseBrowser(BusquedaReportesTest5.java:28)
 ]]></failure>
@@ -217,7 +217,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest5" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest4" time="1.036">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest4" time="0.978">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest4.initiaLiseBrowser(BusquedaReportesTest4.java:28)
 ]]></failure>
@@ -230,7 +230,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest4" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest3" time="1.048">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest3" time="0.99">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest3.initiaLiseBrowser(BusquedaReportesTest3.java:31)
 ]]></failure>
@@ -243,7 +243,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest2" time="1.054">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest2" time="0.997">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest2.initiaLiseBrowser(BusquedaReportesTest2.java:28)
 ]]></failure>
@@ -256,7 +256,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest6" time="1.066">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest6" time="1.004">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest6.initiaLiseBrowser(BusquedaReportesTest6.java:31)
 ]]></failure>
@@ -269,7 +269,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest6" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest7" time="1.071">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest7" time="1.008">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest7.initiaLiseBrowser(BusquedaReportesTest7.java:31)
 ]]></failure>
@@ -282,7 +282,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest7" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest8" time="1.078">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest8" time="1.019">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest8.initiaLiseBrowser(BusquedaReportesTest8.java:28)
 ]]></failure>
@@ -295,7 +295,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest8" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest9" time="1.085">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest9" time="1.032">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest9.initiaLiseBrowser(BusquedaReportesTest9.java:28)
 ]]></failure>
@@ -308,7 +308,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest9" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest10" time="1.091">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest10" time="1.041">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest10.initiaLiseBrowser(BusquedaReportesTest10.java:28)
 ]]></failure>
@@ -321,7 +321,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest10" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest11" time="1.096">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest11" time="1.05">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest11.initiaLiseBrowser(BusquedaReportesTest11.java:30)
 ]]></failure>
@@ -334,7 +334,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest11" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest12" time="1.103">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest12" time="1.059">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest12.initiaLiseBrowser(BusquedaReportesTest12.java:28)
 ]]></failure>
@@ -347,7 +347,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest12" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest14" time="1.125">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest14" time="1.074">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest14.initiaLiseBrowser(BusquedaReportesTest14.java:28)
 ]]></failure>
@@ -360,7 +360,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest14" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest15" time="1.132">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest15" time="1.079">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest15.initiaLiseBrowser(BusquedaReportesTest15.java:31)
 ]]></failure>
@@ -373,7 +373,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.BusquedaReportesTest15" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest5" time="1.137">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest5" time="1.085">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest5.initiaLiseBrowser(ReportesEmitidosTest5.java:27)
 ]]></failure>
@@ -386,7 +386,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest5" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest4" time="1.14">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest4" time="1.089">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest4.initiaLiseBrowser(ReportesEmitidosTest4.java:32)
 ]]></failure>
@@ -399,7 +399,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ReportesEmitidosTest4" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaBasicaTest" time="1.146">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaBasicaTest" time="1.096">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaBasicaTest.initiaLiseBrowser(FacturaBasicaTest.java:31)
 ]]></failure>
@@ -412,7 +412,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.FacturaBasicaTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaCartaPorteTest" time="1.15">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaCartaPorteTest" time="1.101">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaCartaPorteTest.initiaLiseBrowser(FacturaCartaPorteTest.java:34)
 ]]></failure>
@@ -425,7 +425,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.FacturaCartaPorteTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaPagoTest" time="1.156">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaPagoTest" time="1.135">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaPagoTest.initiaLiseBrowser(FacturaPagoTest.java:31)
 ]]></failure>
@@ -438,7 +438,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.FacturaPagoTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.NotaDeCreditoTest" time="1.163">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.NotaDeCreditoTest" time="1.147">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.NotaDeCreditoTest.initiaLiseBrowser(NotaDeCreditoTest.java:33)
 ]]></failure>
@@ -451,7 +451,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.NotaDeCreditoTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaDetallistaTest" time="1.175">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaDetallistaTest" time="1.152">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaDetallistaTest.initiaLiseBrowser(FacturaDetallistaTest.java:31)
 ]]></failure>
@@ -464,7 +464,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.FacturaDetallistaTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ImpuestosLocalesTest" time="1.182">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ImpuestosLocalesTest" time="1.157">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ImpuestosLocalesTest.initiaLiseBrowser(ImpuestosLocalesTest.java:35)
 ]]></failure>
@@ -477,7 +477,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ImpuestosLocalesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.INETest" time="1.186">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.INETest" time="1.161">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.INETest.initiaLiseBrowser(INETest.java:33)
 ]]></failure>
@@ -490,7 +490,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.INETest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.InstituicionesEducativasTest" time="1.189">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.InstituicionesEducativasTest" time="1.165">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.InstituicionesEducativasTest.initiaLiseBrowser(InstituicionesEducativasTest.java:32)
 ]]></failure>
@@ -503,7 +503,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.InstituicionesEducativasTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.LeyendasFiscalesTest" time="1.193">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.LeyendasFiscalesTest" time="1.169">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.LeyendasFiscalesTest.initiaLiseBrowser(LeyendasFiscalesTest.java:31)
 ]]></failure>
@@ -516,7 +516,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.LeyendasFiscalesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest" time="1.198">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest" time="1.174">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest.initiaLiseBrowser(ServiciosParcealesDeContruccionTest.java:31)
 ]]></failure>
@@ -529,7 +529,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest" time="1.206">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest" time="1.178">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest.initiaLiseBrowser(TuristaPasajeroExtranjeroTest.java:31)
 ]]></failure>
@@ -542,7 +542,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.VehiculosUsadosTest" time="1.211">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.VehiculosUsadosTest" time="1.183">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.VehiculosUsadosTest.initiaLiseBrowser(VehiculosUsadosTest.java:31)
 ]]></failure>
@@ -555,7 +555,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.VehiculosUsadosTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.VentaDeVehiculosTest" time="1.216">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.VentaDeVehiculosTest" time="1.187">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.VentaDeVehiculosTest.initiaLiseBrowser(VentaDeVehiculosTest.java:31)
 ]]></failure>
@@ -568,7 +568,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.VentaDeVehiculosTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.DonativosTest" time="1.221">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.DonativosTest" time="1.192">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.DonativosTest.initiaLiseBrowser(DonativosTest.java:31)
 ]]></failure>
@@ -581,7 +581,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.DonativosTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.NotariosPublicosTest" time="1.239">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.NotariosPublicosTest" time="1.197">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.NotariosPublicosTest.initiaLiseBrowser(NotariosPublicosTest.java:34)
 ]]></failure>
@@ -594,7 +594,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.NotariosPublicosTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest" time="1.247">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest" time="1.201">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest.initiaLiseBrowser(ObrasDeArteYAtenguedadTest.java:34)
 ]]></failure>
@@ -607,7 +607,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PagoEnEspeciesTest" time="1.258">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PagoEnEspeciesTest" time="1.206">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PagoEnEspeciesTest.initiaLiseBrowser(PagoEnEspeciesTest.java:31)
 ]]></failure>
@@ -620,7 +620,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.PagoEnEspeciesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest" time="1.27">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest" time="1.212">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest.initiaLiseBrowser(PersonasFisicasIntegranteDeCoordinacionTest.java:32)
 ]]></failure>
@@ -633,7 +633,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest" time="1.279">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest" time="1.217">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.initiaLiseBrowser(FacturaAdendaMultiAssistenciaTest.java:33)
 ]]></failure>
@@ -646,7 +646,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest" time="1.284">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest" time="1.221">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest.initiaLiseBrowser(FacturaBasicaDetailTest.java:33)
 ]]></failure>
@@ -659,7 +659,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2" time="1.29">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2" time="1.228">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2.initiaLiseBrowser(FacturaBasicaDetailTest2.java:32)
 ]]></failure>
@@ -672,7 +672,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest" time="1.297">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest" time="1.232">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest.initiaLiseBrowser(FacturaCartaPorteDetailTest.java:35)
 ]]></failure>
@@ -685,7 +685,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2" time="1.309">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2" time="1.236">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2.initiaLiseBrowser(FacturaCartaPorteDetailTest2.java:35)
 ]]></failure>
@@ -698,7 +698,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2" time="1.321">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2" time="1.24">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2.initiaLiseBrowser(FacturaPagoDetailTest2.java:34)
 ]]></failure>
@@ -711,7 +711,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.nomina.NominaFiscalDescargaTest" time="1.328">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.nomina.NominaFiscalDescargaTest" time="1.245">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.nomina.NominaFiscalDescargaTest.initiaLiseBrowser(NominaFiscalDescargaTest.java:35)
 ]]></failure>
@@ -724,7 +724,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.nomina.NominaFiscalDescargaTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.nomina.NominaFiscalTest" time="1.333">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.nomina.NominaFiscalTest" time="1.249">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.nomina.NominaFiscalTest.initiaLiseBrowser(NominaFiscalTest.java:35)
 ]]></failure>
@@ -737,7 +737,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.nomina.NominaFiscalTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaBasicaGratisTest2" time="1.34">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaBasicaGratisTest2" time="1.256">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaBasicaGratisTest2.initiaLiseBrowser(FacturaBasicaGratisTest2.java:31)
 ]]></failure>
@@ -750,7 +750,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busongratis.FacturaBasicaGratisTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaCartaPorteGratisTest2" time="1.345">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaCartaPorteGratisTest2" time="1.26">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaCartaPorteGratisTest2.initiaLiseBrowser(FacturaCartaPorteGratisTest2.java:34)
 ]]></failure>
@@ -763,7 +763,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busongratis.FacturaCartaPorteGratisTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaPagoGratisTest2" time="1.35">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.busongratis.FacturaPagoGratisTest2" time="1.264">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaPagoGratisTest2.initiaLiseBrowser(FacturaPagoGratisTest2.java:31)
 ]]></failure>
@@ -776,7 +776,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.busongratis.FacturaPagoGratisTest2" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3" time="1.355">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3" time="1.267">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest3.initiaLiseBrowser(ImpresionIETFiscalTest3.java:36)
 ]]></failure>
@@ -789,7 +789,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4" time="1.365">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4" time="1.27">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest4.initiaLiseBrowser(ImpresionIETFiscalTest4.java:36)
 ]]></failure>
@@ -802,7 +802,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest4" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5" time="1.368">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5" time="1.273">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest5.initiaLiseBrowser(ImpresionIETFiscalTest5.java:36)
 ]]></failure>
@@ -815,7 +815,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.impression.fiscal.ImpresionIETFiscalTest5" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaBasicaJesTest" time="1.378">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaBasicaJesTest" time="1.277">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaBasicaJesTest.initiaLiseBrowser(FacturaBasicaJesTest.java:31)
 ]]></failure>
@@ -828,7 +828,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.FacturaBasicaJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaCartaPorteJesTest" time="1.387">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaCartaPorteJesTest" time="1.28">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaCartaPorteJesTest.initiaLiseBrowser(FacturaCartaPorteJesTest.java:34)
 ]]></failure>
@@ -841,7 +841,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.FacturaCartaPorteJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaDetallistaJesTest" time="1.396">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaDetallistaJesTest" time="1.284">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaDetallistaJesTest.initiaLiseBrowser(FacturaDetallistaJesTest.java:31)
 ]]></failure>
@@ -854,7 +854,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.FacturaDetallistaJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaPagoJesTest" time="1.402">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.FacturaPagoJesTest" time="1.287">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaPagoJesTest.initiaLiseBrowser(FacturaPagoJesTest.java:31)
 ]]></failure>
@@ -867,7 +867,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.FacturaPagoJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.ImpuestosLocalesJesTest" time="1.412">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.ImpuestosLocalesJesTest" time="1.291">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.ImpuestosLocalesJesTest.initiaLiseBrowser(ImpuestosLocalesJesTest.java:35)
 ]]></failure>
@@ -880,7 +880,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.ImpuestosLocalesJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.INEJesTest" time="1.42">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.INEJesTest" time="1.295">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.INEJesTest.initiaLiseBrowser(INEJesTest.java:33)
 ]]></failure>
@@ -893,7 +893,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.INEJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.InstituicionesEducativasJesTest" time="1.434">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.InstituicionesEducativasJesTest" time="1.3">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.InstituicionesEducativasJesTest.initiaLiseBrowser(InstituicionesEducativasJesTest.java:32)
 ]]></failure>
@@ -906,7 +906,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.InstituicionesEducativasJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.NotaDeCreditoJesTest" time="1.441">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.NotaDeCreditoJesTest" time="1.304">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.NotaDeCreditoJesTest.initiaLiseBrowser(NotaDeCreditoJesTest.java:32)
 ]]></failure>
@@ -919,7 +919,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.NotaDeCreditoJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.PagoEnEspeciesJesTest" time="1.445">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.PagoEnEspeciesJesTest" time="1.307">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.PagoEnEspeciesJesTest.initiaLiseBrowser(PagoEnEspeciesJesTest.java:31)
 ]]></failure>
@@ -932,7 +932,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.PagoEnEspeciesJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.VehiculosUsadosJesTest" time="1.45">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.VehiculosUsadosJesTest" time="1.31">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.VehiculosUsadosJesTest.initiaLiseBrowser(VehiculosUsadosJesTest.java:31)
 ]]></failure>
@@ -945,7 +945,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.VehiculosUsadosJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest" time="1.455">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest" time="1.314">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest.initiaLiseBrowser(ObrasDeArteYAtenguedadJesTest.java:34)
 ]]></failure>
@@ -958,14 +958,14 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="1.459">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="1.316">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser(FacturaBasicaJesDetailTest.java:33)
 ]]></failure>
     <system-out><![CDATA[null
 ]]></system-out>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="1.556">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="1.397">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser(FacturaBasicaJesDetailTest.java:33)
 ]]></failure>
@@ -984,7 +984,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaBasicaJesTest" time="1.468">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaBasicaJesTest" time="1.32">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaBasicaJesTest.initiaLiseBrowser(FacturaBasicaJesTest.java:31)
 ]]></failure>
@@ -997,7 +997,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conector.jes.FacturaBasicaJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaCartaPorteJesTest" time="1.473">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaCartaPorteJesTest" time="1.324">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaCartaPorteJesTest.initiaLiseBrowser(FacturaCartaPorteJesTest.java:34)
 ]]></failure>
@@ -1010,7 +1010,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conector.jes.FacturaCartaPorteJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaDetallistaJesTest" time="1.479">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.FacturaDetallistaJesTest" time="1.328">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaDetallistaJesTest.initiaLiseBrowser(FacturaDetallistaJesTest.java:31)
 ]]></failure>
@@ -1023,7 +1023,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conector.jes.FacturaDetallistaJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest" time="1.483">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest" time="1.331">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest.initiaLiseBrowser(TuristaPasajeroExtranjeroJesTest.java:30)
 ]]></failure>
@@ -1036,7 +1036,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.PagoEnEspeciesJesTest" time="1.488">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conector.jes.PagoEnEspeciesJesTest" time="1.334">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conector.jes.PagoEnEspeciesJesTest.initiaLiseBrowser(PagoEnEspeciesJesTest.java:31)
 ]]></failure>
@@ -1049,7 +1049,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conector.jes.PagoEnEspeciesJesTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest10" time="1.492">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest10" time="1.338">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest10.initiaLiseBrowser(ConciliacionTest10.java:37)
 ]]></failure>
@@ -1062,7 +1062,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest10" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest11" time="1.5">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest11" time="1.347">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest11.initiaLiseBrowser(ConciliacionTest11.java:38)
 ]]></failure>
@@ -1075,7 +1075,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest11" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest13" time="1.506">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest13" time="1.351">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest13.initiaLiseBrowser(ConciliacionTest13.java:36)
 ]]></failure>
@@ -1088,7 +1088,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest13" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest3" time="1.51">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest3" time="1.354">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest3.initiaLiseBrowser(ConciliacionTest3.java:36)
 ]]></failure>
@@ -1101,7 +1101,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest3" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest4" time="1.513">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest4" time="1.358">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest4.initiaLiseBrowser(ConciliacionTest4.java:36)
 ]]></failure>
@@ -1114,7 +1114,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest4" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest5" time="1.515">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest5" time="1.36">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest5.initiaLiseBrowser(ConciliacionTest5.java:36)
 ]]></failure>
@@ -1127,7 +1127,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest5" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest62" time="1.519">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest62" time="1.363">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest62.initiaLiseBrowser(ConciliacionTest62.java:36)
 ]]></failure>
@@ -1140,7 +1140,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest62" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest32" time="1.523">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest32" time="1.366">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest32.initiaLiseBrowser(ConciliacionTest32.java:38)
 ]]></failure>
@@ -1153,7 +1153,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest32" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest33" time="1.526">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest33" time="1.369">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest33.initiaLiseBrowser(ConciliacionTest33.java:36)
 ]]></failure>
@@ -1166,7 +1166,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest33" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest34" time="1.529">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest34" time="1.372">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest34.initiaLiseBrowser(ConciliacionTest34.java:38)
 ]]></failure>
@@ -1179,7 +1179,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest34" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest63" time="1.533">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest63" time="1.378">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest63.initiaLiseBrowser(ConciliacionTest63.java:36)
 ]]></failure>
@@ -1192,7 +1192,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest63" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest64" time="1.54">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest64" time="1.382">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest64.initiaLiseBrowser(ConciliacionTest64.java:36)
 ]]></failure>
@@ -1205,7 +1205,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest64" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest65" time="1.544">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest65" time="1.386">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest65.initiaLiseBrowser(ConciliacionTest65.java:36)
 ]]></failure>
@@ -1218,7 +1218,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.conciliacion.conector.ConciliacionTest65" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.DonativosJesDetailTest" time="1.55">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.DonativosJesDetailTest" time="1.39">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.DonativosJesDetailTest.initiaLiseBrowser(DonativosJesDetailTest.java:35)
 ]]></failure>
@@ -1231,7 +1231,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.DonativosJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest" time="1.553">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest" time="1.395">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.initiaLiseBrowser(FacturaAdendaMultiAssistenciaJesDetailTest.java:34)
 ]]></failure>
@@ -1244,7 +1244,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest" time="1.559">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest" time="1.4">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest.initiaLiseBrowser(FacturaCartaPorteJesDetailTest.java:36)
 ]]></failure>
@@ -1257,7 +1257,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest" time="1.562">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest" time="1.403">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest.initiaLiseBrowser(FacturaPagoJesDetailTest.java:34)
 ]]></failure>
@@ -1270,7 +1270,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest" time="1.567">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest" time="1.406">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest.initiaLiseBrowser(ImpuestosLocalesJesDetailTest.java:37)
 ]]></failure>
@@ -1283,7 +1283,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.INEJesDetailTest" time="1.57">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.INEJesDetailTest" time="1.409">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.INEJesDetailTest.initiaLiseBrowser(INEJesDetailTest.java:34)
 ]]></failure>
@@ -1296,7 +1296,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.INEJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest" time="1.574">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest" time="1.412">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest.initiaLiseBrowser(InstituicionesEducativasJesDetailTest.java:34)
 ]]></failure>
@@ -1309,7 +1309,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest" time="1.578">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest" time="1.417">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest.initiaLiseBrowser(LeyendasFiscalesJesDetailTest.java:35)
 ]]></failure>
@@ -1322,7 +1322,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest" time="1.582">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest" time="1.422">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest.initiaLiseBrowser(NotaDeCreditoJesDetailTest.java:35)
 ]]></failure>
@@ -1335,7 +1335,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest" time="1.586">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest" time="1.425">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest.initiaLiseBrowser(NotariosPublicosJesDetailTest.java:35)
 ]]></failure>
@@ -1348,7 +1348,7 @@
   <testcase name="closeBrowser" classname="com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest" time="1.59">
+  <testcase name="initiaLiseBrowser" classname="com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest" time="1.432">
     <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.initiaLiseBrowser(VehiculosUsadosJesDetailTest.java:35)
 ]]></failure>

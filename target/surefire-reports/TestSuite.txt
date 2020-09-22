@@ -1,404 +1,404 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 300, Failures: 100, Errors: 0, Skipped: 200, Time elapsed: 2.384 s <<< FAILURE! - in TestSuite
-com.mkyong.busonfiscal.HomePageBusonTest.initiaLiseBrowser  Time elapsed: 0.905 s  <<< FAILURE!
+Tests run: 300, Failures: 100, Errors: 0, Skipped: 200, Time elapsed: 2.05 s <<< FAILURE! - in TestSuite
+com.mkyong.busonfiscal.HomePageBusonTest.initiaLiseBrowser  Time elapsed: 0.8 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.HomePageBusonTest.initiaLiseBrowser(HomePageBusonTest.java:35)
 
-com.mkyong.busonfiscal.ClientProductoTest.initiaLiseBrowser  Time elapsed: 0.957 s  <<< FAILURE!
+com.mkyong.busonfiscal.ClientProductoTest.initiaLiseBrowser  Time elapsed: 0.893 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ClientProductoTest.initiaLiseBrowser(ClientProductoTest.java:26)
 
-com.mkyong.busonfiscal.ReportesEmitidosTest3.initiaLiseBrowser  Time elapsed: 0.965 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosTest3.initiaLiseBrowser  Time elapsed: 0.903 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest3.initiaLiseBrowser(ReportesEmitidosTest3.java:27)
 
-com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3.initiaLiseBrowser  Time elapsed: 0.971 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3.initiaLiseBrowser  Time elapsed: 0.911 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest3.initiaLiseBrowser(ReportesEmitidosCancelacionTest3.java:29)
 
-com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.initiaLiseBrowser  Time elapsed: 0.979 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.initiaLiseBrowser  Time elapsed: 0.919 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosCancelacionTest4.initiaLiseBrowser(ReportesEmitidosCancelacionTest4.java:28)
 
-com.mkyong.busonfiscal.PasswordTest.initiaLiseBrowser  Time elapsed: 0.985 s  <<< FAILURE!
+com.mkyong.busonfiscal.PasswordTest.initiaLiseBrowser  Time elapsed: 0.926 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PasswordTest.initiaLiseBrowser(PasswordTest.java:24)
 
-com.mkyong.busonfiscal.EmailTest.initiaLiseBrowser  Time elapsed: 0.991 s  <<< FAILURE!
+com.mkyong.busonfiscal.EmailTest.initiaLiseBrowser  Time elapsed: 0.935 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailTest.initiaLiseBrowser(EmailTest.java:25)
 
-com.mkyong.busonfiscal.EmailAndPasswordTest.initiaLiseBrowser  Time elapsed: 0.999 s  <<< FAILURE!
+com.mkyong.busonfiscal.EmailAndPasswordTest.initiaLiseBrowser  Time elapsed: 0.942 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailAndPasswordTest.initiaLiseBrowser(EmailAndPasswordTest.java:26)
 
-com.mkyong.busonfiscal.EmailPasswordCorrectTest.initiaLiseBrowser  Time elapsed: 1.006 s  <<< FAILURE!
+com.mkyong.busonfiscal.EmailPasswordCorrectTest.initiaLiseBrowser  Time elapsed: 0.95 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.EmailPasswordCorrectTest.initiaLiseBrowser(EmailPasswordCorrectTest.java:24)
 
-com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3.initiaLiseBrowser  Time elapsed: 1.015 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3.initiaLiseBrowser  Time elapsed: 0.958 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosDuplicarComprobanteTest3.initiaLiseBrowser(ReportesEmitidosDuplicarComprobanteTest3.java:27)
 
-com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.initiaLiseBrowser  Time elapsed: 1.023 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.initiaLiseBrowser  Time elapsed: 0.964 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.initiaLiseBrowser(ReportesEmitidosDuplicarComplLeyendasFiscalesTest2.java:27)
 
-com.mkyong.busonfiscal.BusquedaReportesTest5.initiaLiseBrowser  Time elapsed: 1.03 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest5.initiaLiseBrowser  Time elapsed: 0.972 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest5.initiaLiseBrowser(BusquedaReportesTest5.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest4.initiaLiseBrowser  Time elapsed: 1.036 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest4.initiaLiseBrowser  Time elapsed: 0.978 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest4.initiaLiseBrowser(BusquedaReportesTest4.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest3.initiaLiseBrowser  Time elapsed: 1.048 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest3.initiaLiseBrowser  Time elapsed: 0.99 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest3.initiaLiseBrowser(BusquedaReportesTest3.java:31)
 
-com.mkyong.busonfiscal.BusquedaReportesTest2.initiaLiseBrowser  Time elapsed: 1.054 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest2.initiaLiseBrowser  Time elapsed: 0.997 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest2.initiaLiseBrowser(BusquedaReportesTest2.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest6.initiaLiseBrowser  Time elapsed: 1.066 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest6.initiaLiseBrowser  Time elapsed: 1.004 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest6.initiaLiseBrowser(BusquedaReportesTest6.java:31)
 
-com.mkyong.busonfiscal.BusquedaReportesTest7.initiaLiseBrowser  Time elapsed: 1.071 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest7.initiaLiseBrowser  Time elapsed: 1.008 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest7.initiaLiseBrowser(BusquedaReportesTest7.java:31)
 
-com.mkyong.busonfiscal.BusquedaReportesTest8.initiaLiseBrowser  Time elapsed: 1.078 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest8.initiaLiseBrowser  Time elapsed: 1.019 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest8.initiaLiseBrowser(BusquedaReportesTest8.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest9.initiaLiseBrowser  Time elapsed: 1.085 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest9.initiaLiseBrowser  Time elapsed: 1.032 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest9.initiaLiseBrowser(BusquedaReportesTest9.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest10.initiaLiseBrowser  Time elapsed: 1.091 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest10.initiaLiseBrowser  Time elapsed: 1.041 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest10.initiaLiseBrowser(BusquedaReportesTest10.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest11.initiaLiseBrowser  Time elapsed: 1.096 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest11.initiaLiseBrowser  Time elapsed: 1.05 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest11.initiaLiseBrowser(BusquedaReportesTest11.java:30)
 
-com.mkyong.busonfiscal.BusquedaReportesTest12.initiaLiseBrowser  Time elapsed: 1.103 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest12.initiaLiseBrowser  Time elapsed: 1.059 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest12.initiaLiseBrowser(BusquedaReportesTest12.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest14.initiaLiseBrowser  Time elapsed: 1.125 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest14.initiaLiseBrowser  Time elapsed: 1.074 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest14.initiaLiseBrowser(BusquedaReportesTest14.java:28)
 
-com.mkyong.busonfiscal.BusquedaReportesTest15.initiaLiseBrowser  Time elapsed: 1.132 s  <<< FAILURE!
+com.mkyong.busonfiscal.BusquedaReportesTest15.initiaLiseBrowser  Time elapsed: 1.079 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.BusquedaReportesTest15.initiaLiseBrowser(BusquedaReportesTest15.java:31)
 
-com.mkyong.busonfiscal.ReportesEmitidosTest5.initiaLiseBrowser  Time elapsed: 1.137 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosTest5.initiaLiseBrowser  Time elapsed: 1.085 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest5.initiaLiseBrowser(ReportesEmitidosTest5.java:27)
 
-com.mkyong.busonfiscal.ReportesEmitidosTest4.initiaLiseBrowser  Time elapsed: 1.14 s  <<< FAILURE!
+com.mkyong.busonfiscal.ReportesEmitidosTest4.initiaLiseBrowser  Time elapsed: 1.089 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ReportesEmitidosTest4.initiaLiseBrowser(ReportesEmitidosTest4.java:32)
 
-com.mkyong.busonfiscal.FacturaBasicaTest.initiaLiseBrowser  Time elapsed: 1.146 s  <<< FAILURE!
+com.mkyong.busonfiscal.FacturaBasicaTest.initiaLiseBrowser  Time elapsed: 1.096 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaBasicaTest.initiaLiseBrowser(FacturaBasicaTest.java:31)
 
-com.mkyong.busonfiscal.FacturaCartaPorteTest.initiaLiseBrowser  Time elapsed: 1.15 s  <<< FAILURE!
+com.mkyong.busonfiscal.FacturaCartaPorteTest.initiaLiseBrowser  Time elapsed: 1.101 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaCartaPorteTest.initiaLiseBrowser(FacturaCartaPorteTest.java:34)
 
-com.mkyong.busonfiscal.FacturaPagoTest.initiaLiseBrowser  Time elapsed: 1.156 s  <<< FAILURE!
+com.mkyong.busonfiscal.FacturaPagoTest.initiaLiseBrowser  Time elapsed: 1.135 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaPagoTest.initiaLiseBrowser(FacturaPagoTest.java:31)
 
-com.mkyong.busonfiscal.NotaDeCreditoTest.initiaLiseBrowser  Time elapsed: 1.163 s  <<< FAILURE!
+com.mkyong.busonfiscal.NotaDeCreditoTest.initiaLiseBrowser  Time elapsed: 1.147 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.NotaDeCreditoTest.initiaLiseBrowser(NotaDeCreditoTest.java:33)
 
-com.mkyong.busonfiscal.FacturaDetallistaTest.initiaLiseBrowser  Time elapsed: 1.175 s  <<< FAILURE!
+com.mkyong.busonfiscal.FacturaDetallistaTest.initiaLiseBrowser  Time elapsed: 1.152 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaDetallistaTest.initiaLiseBrowser(FacturaDetallistaTest.java:31)
 
-com.mkyong.busonfiscal.ImpuestosLocalesTest.initiaLiseBrowser  Time elapsed: 1.182 s  <<< FAILURE!
+com.mkyong.busonfiscal.ImpuestosLocalesTest.initiaLiseBrowser  Time elapsed: 1.157 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ImpuestosLocalesTest.initiaLiseBrowser(ImpuestosLocalesTest.java:35)
 
-com.mkyong.busonfiscal.INETest.initiaLiseBrowser  Time elapsed: 1.186 s  <<< FAILURE!
+com.mkyong.busonfiscal.INETest.initiaLiseBrowser  Time elapsed: 1.161 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.INETest.initiaLiseBrowser(INETest.java:33)
 
-com.mkyong.busonfiscal.InstituicionesEducativasTest.initiaLiseBrowser  Time elapsed: 1.189 s  <<< FAILURE!
+com.mkyong.busonfiscal.InstituicionesEducativasTest.initiaLiseBrowser  Time elapsed: 1.165 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.InstituicionesEducativasTest.initiaLiseBrowser(InstituicionesEducativasTest.java:32)
 
-com.mkyong.busonfiscal.LeyendasFiscalesTest.initiaLiseBrowser  Time elapsed: 1.193 s  <<< FAILURE!
+com.mkyong.busonfiscal.LeyendasFiscalesTest.initiaLiseBrowser  Time elapsed: 1.169 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.LeyendasFiscalesTest.initiaLiseBrowser(LeyendasFiscalesTest.java:31)
 
-com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest.initiaLiseBrowser  Time elapsed: 1.198 s  <<< FAILURE!
+com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest.initiaLiseBrowser  Time elapsed: 1.174 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ServiciosParcealesDeContruccionTest.initiaLiseBrowser(ServiciosParcealesDeContruccionTest.java:31)
 
-com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest.initiaLiseBrowser  Time elapsed: 1.206 s  <<< FAILURE!
+com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest.initiaLiseBrowser  Time elapsed: 1.178 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.TuristaPasajeroExtranjeroTest.initiaLiseBrowser(TuristaPasajeroExtranjeroTest.java:31)
 
-com.mkyong.busonfiscal.VehiculosUsadosTest.initiaLiseBrowser  Time elapsed: 1.211 s  <<< FAILURE!
+com.mkyong.busonfiscal.VehiculosUsadosTest.initiaLiseBrowser  Time elapsed: 1.183 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.VehiculosUsadosTest.initiaLiseBrowser(VehiculosUsadosTest.java:31)
 
-com.mkyong.busonfiscal.VentaDeVehiculosTest.initiaLiseBrowser  Time elapsed: 1.216 s  <<< FAILURE!
+com.mkyong.busonfiscal.VentaDeVehiculosTest.initiaLiseBrowser  Time elapsed: 1.187 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.VentaDeVehiculosTest.initiaLiseBrowser(VentaDeVehiculosTest.java:31)
 
-com.mkyong.busonfiscal.DonativosTest.initiaLiseBrowser  Time elapsed: 1.221 s  <<< FAILURE!
+com.mkyong.busonfiscal.DonativosTest.initiaLiseBrowser  Time elapsed: 1.192 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.DonativosTest.initiaLiseBrowser(DonativosTest.java:31)
 
-com.mkyong.busonfiscal.NotariosPublicosTest.initiaLiseBrowser  Time elapsed: 1.239 s  <<< FAILURE!
+com.mkyong.busonfiscal.NotariosPublicosTest.initiaLiseBrowser  Time elapsed: 1.197 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.NotariosPublicosTest.initiaLiseBrowser(NotariosPublicosTest.java:34)
 
-com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest.initiaLiseBrowser  Time elapsed: 1.247 s  <<< FAILURE!
+com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest.initiaLiseBrowser  Time elapsed: 1.201 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.ObrasDeArteYAtenguedadTest.initiaLiseBrowser(ObrasDeArteYAtenguedadTest.java:34)
 
-com.mkyong.busonfiscal.PagoEnEspeciesTest.initiaLiseBrowser  Time elapsed: 1.258 s  <<< FAILURE!
+com.mkyong.busonfiscal.PagoEnEspeciesTest.initiaLiseBrowser  Time elapsed: 1.206 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PagoEnEspeciesTest.initiaLiseBrowser(PagoEnEspeciesTest.java:31)
 
-com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest.initiaLiseBrowser  Time elapsed: 1.27 s  <<< FAILURE!
+com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest.initiaLiseBrowser  Time elapsed: 1.212 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.PersonasFisicasIntegranteDeCoordinacionTest.initiaLiseBrowser(PersonasFisicasIntegranteDeCoordinacionTest.java:32)
 
-com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.initiaLiseBrowser  Time elapsed: 1.279 s  <<< FAILURE!
+com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.initiaLiseBrowser  Time elapsed: 1.217 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.FacturaAdendaMultiAssistenciaTest.initiaLiseBrowser(FacturaAdendaMultiAssistenciaTest.java:33)
 
-com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest.initiaLiseBrowser  Time elapsed: 1.284 s  <<< FAILURE!
+com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest.initiaLiseBrowser  Time elapsed: 1.221 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest.initiaLiseBrowser(FacturaBasicaDetailTest.java:33)
 
-com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2.initiaLiseBrowser  Time elapsed: 1.29 s  <<< FAILURE!
+com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2.initiaLiseBrowser  Time elapsed: 1.228 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaBasicaDetailTest2.initiaLiseBrowser(FacturaBasicaDetailTest2.java:32)
 
-com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest.initiaLiseBrowser  Time elapsed: 1.297 s  <<< FAILURE!
+com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest.initiaLiseBrowser  Time elapsed: 1.232 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest.initiaLiseBrowser(FacturaCartaPorteDetailTest.java:35)
 
-com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2.initiaLiseBrowser  Time elapsed: 1.309 s  <<< FAILURE!
+com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2.initiaLiseBrowser  Time elapsed: 1.236 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaCartaPorteDetailTest2.initiaLiseBrowser(FacturaCartaPorteDetailTest2.java:35)
 
-com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2.initiaLiseBrowser  Time elapsed: 1.321 s  <<< FAILURE!
+com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2.initiaLiseBrowser  Time elapsed: 1.24 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busonfiscal.detail.FacturaPagoDetailTest2.initiaLiseBrowser(FacturaPagoDetailTest2.java:34)
 
-com.mkyong.nomina.NominaFiscalDescargaTest.initiaLiseBrowser  Time elapsed: 1.328 s  <<< FAILURE!
+com.mkyong.nomina.NominaFiscalDescargaTest.initiaLiseBrowser  Time elapsed: 1.245 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.nomina.NominaFiscalDescargaTest.initiaLiseBrowser(NominaFiscalDescargaTest.java:35)
 
-com.mkyong.nomina.NominaFiscalTest.initiaLiseBrowser  Time elapsed: 1.333 s  <<< FAILURE!
+com.mkyong.nomina.NominaFiscalTest.initiaLiseBrowser  Time elapsed: 1.249 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.nomina.NominaFiscalTest.initiaLiseBrowser(NominaFiscalTest.java:35)
 
-com.mkyong.busongratis.FacturaBasicaGratisTest2.initiaLiseBrowser  Time elapsed: 1.34 s  <<< FAILURE!
+com.mkyong.busongratis.FacturaBasicaGratisTest2.initiaLiseBrowser  Time elapsed: 1.256 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaBasicaGratisTest2.initiaLiseBrowser(FacturaBasicaGratisTest2.java:31)
 
-com.mkyong.busongratis.FacturaCartaPorteGratisTest2.initiaLiseBrowser  Time elapsed: 1.345 s  <<< FAILURE!
+com.mkyong.busongratis.FacturaCartaPorteGratisTest2.initiaLiseBrowser  Time elapsed: 1.26 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaCartaPorteGratisTest2.initiaLiseBrowser(FacturaCartaPorteGratisTest2.java:34)
 
-com.mkyong.busongratis.FacturaPagoGratisTest2.initiaLiseBrowser  Time elapsed: 1.35 s  <<< FAILURE!
+com.mkyong.busongratis.FacturaPagoGratisTest2.initiaLiseBrowser  Time elapsed: 1.264 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.busongratis.FacturaPagoGratisTest2.initiaLiseBrowser(FacturaPagoGratisTest2.java:31)
 
-com.mkyong.impression.fiscal.ImpresionIETFiscalTest3.initiaLiseBrowser  Time elapsed: 1.355 s  <<< FAILURE!
+com.mkyong.impression.fiscal.ImpresionIETFiscalTest3.initiaLiseBrowser  Time elapsed: 1.267 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest3.initiaLiseBrowser(ImpresionIETFiscalTest3.java:36)
 
-com.mkyong.impression.fiscal.ImpresionIETFiscalTest4.initiaLiseBrowser  Time elapsed: 1.365 s  <<< FAILURE!
+com.mkyong.impression.fiscal.ImpresionIETFiscalTest4.initiaLiseBrowser  Time elapsed: 1.27 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest4.initiaLiseBrowser(ImpresionIETFiscalTest4.java:36)
 
-com.mkyong.impression.fiscal.ImpresionIETFiscalTest5.initiaLiseBrowser  Time elapsed: 1.368 s  <<< FAILURE!
+com.mkyong.impression.fiscal.ImpresionIETFiscalTest5.initiaLiseBrowser  Time elapsed: 1.273 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.impression.fiscal.ImpresionIETFiscalTest5.initiaLiseBrowser(ImpresionIETFiscalTest5.java:36)
 
-com.mkyong.buson.jes.FacturaBasicaJesTest.initiaLiseBrowser  Time elapsed: 1.378 s  <<< FAILURE!
+com.mkyong.buson.jes.FacturaBasicaJesTest.initiaLiseBrowser  Time elapsed: 1.277 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaBasicaJesTest.initiaLiseBrowser(FacturaBasicaJesTest.java:31)
 
-com.mkyong.buson.jes.FacturaCartaPorteJesTest.initiaLiseBrowser  Time elapsed: 1.387 s  <<< FAILURE!
+com.mkyong.buson.jes.FacturaCartaPorteJesTest.initiaLiseBrowser  Time elapsed: 1.28 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaCartaPorteJesTest.initiaLiseBrowser(FacturaCartaPorteJesTest.java:34)
 
-com.mkyong.buson.jes.FacturaDetallistaJesTest.initiaLiseBrowser  Time elapsed: 1.396 s  <<< FAILURE!
+com.mkyong.buson.jes.FacturaDetallistaJesTest.initiaLiseBrowser  Time elapsed: 1.284 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaDetallistaJesTest.initiaLiseBrowser(FacturaDetallistaJesTest.java:31)
 
-com.mkyong.buson.jes.FacturaPagoJesTest.initiaLiseBrowser  Time elapsed: 1.402 s  <<< FAILURE!
+com.mkyong.buson.jes.FacturaPagoJesTest.initiaLiseBrowser  Time elapsed: 1.287 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.FacturaPagoJesTest.initiaLiseBrowser(FacturaPagoJesTest.java:31)
 
-com.mkyong.buson.jes.ImpuestosLocalesJesTest.initiaLiseBrowser  Time elapsed: 1.412 s  <<< FAILURE!
+com.mkyong.buson.jes.ImpuestosLocalesJesTest.initiaLiseBrowser  Time elapsed: 1.291 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.ImpuestosLocalesJesTest.initiaLiseBrowser(ImpuestosLocalesJesTest.java:35)
 
-com.mkyong.buson.jes.INEJesTest.initiaLiseBrowser  Time elapsed: 1.42 s  <<< FAILURE!
+com.mkyong.buson.jes.INEJesTest.initiaLiseBrowser  Time elapsed: 1.295 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.INEJesTest.initiaLiseBrowser(INEJesTest.java:33)
 
-com.mkyong.buson.jes.InstituicionesEducativasJesTest.initiaLiseBrowser  Time elapsed: 1.434 s  <<< FAILURE!
+com.mkyong.buson.jes.InstituicionesEducativasJesTest.initiaLiseBrowser  Time elapsed: 1.3 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.InstituicionesEducativasJesTest.initiaLiseBrowser(InstituicionesEducativasJesTest.java:32)
 
-com.mkyong.buson.jes.NotaDeCreditoJesTest.initiaLiseBrowser  Time elapsed: 1.441 s  <<< FAILURE!
+com.mkyong.buson.jes.NotaDeCreditoJesTest.initiaLiseBrowser  Time elapsed: 1.304 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.NotaDeCreditoJesTest.initiaLiseBrowser(NotaDeCreditoJesTest.java:32)
 
-com.mkyong.buson.jes.PagoEnEspeciesJesTest.initiaLiseBrowser  Time elapsed: 1.445 s  <<< FAILURE!
+com.mkyong.buson.jes.PagoEnEspeciesJesTest.initiaLiseBrowser  Time elapsed: 1.307 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.PagoEnEspeciesJesTest.initiaLiseBrowser(PagoEnEspeciesJesTest.java:31)
 
-com.mkyong.buson.jes.VehiculosUsadosJesTest.initiaLiseBrowser  Time elapsed: 1.45 s  <<< FAILURE!
+com.mkyong.buson.jes.VehiculosUsadosJesTest.initiaLiseBrowser  Time elapsed: 1.31 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.VehiculosUsadosJesTest.initiaLiseBrowser(VehiculosUsadosJesTest.java:31)
 
-com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest.initiaLiseBrowser  Time elapsed: 1.455 s  <<< FAILURE!
+com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest.initiaLiseBrowser  Time elapsed: 1.314 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.ObrasDeArteYAtenguedadJesTest.initiaLiseBrowser(ObrasDeArteYAtenguedadJesTest.java:34)
 
-com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.459 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.316 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser(FacturaBasicaJesDetailTest.java:33)
 
-com.mkyong.conector.jes.FacturaBasicaJesTest.initiaLiseBrowser  Time elapsed: 1.468 s  <<< FAILURE!
+com.mkyong.conector.jes.FacturaBasicaJesTest.initiaLiseBrowser  Time elapsed: 1.32 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaBasicaJesTest.initiaLiseBrowser(FacturaBasicaJesTest.java:31)
 
-com.mkyong.conector.jes.FacturaCartaPorteJesTest.initiaLiseBrowser  Time elapsed: 1.473 s  <<< FAILURE!
+com.mkyong.conector.jes.FacturaCartaPorteJesTest.initiaLiseBrowser  Time elapsed: 1.324 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaCartaPorteJesTest.initiaLiseBrowser(FacturaCartaPorteJesTest.java:34)
 
-com.mkyong.conector.jes.FacturaDetallistaJesTest.initiaLiseBrowser  Time elapsed: 1.479 s  <<< FAILURE!
+com.mkyong.conector.jes.FacturaDetallistaJesTest.initiaLiseBrowser  Time elapsed: 1.328 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conector.jes.FacturaDetallistaJesTest.initiaLiseBrowser(FacturaDetallistaJesTest.java:31)
 
-com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest.initiaLiseBrowser  Time elapsed: 1.483 s  <<< FAILURE!
+com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest.initiaLiseBrowser  Time elapsed: 1.331 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conector.jes.TuristaPasajeroExtranjeroJesTest.initiaLiseBrowser(TuristaPasajeroExtranjeroJesTest.java:30)
 
-com.mkyong.conector.jes.PagoEnEspeciesJesTest.initiaLiseBrowser  Time elapsed: 1.488 s  <<< FAILURE!
+com.mkyong.conector.jes.PagoEnEspeciesJesTest.initiaLiseBrowser  Time elapsed: 1.334 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conector.jes.PagoEnEspeciesJesTest.initiaLiseBrowser(PagoEnEspeciesJesTest.java:31)
 
-com.mkyong.conciliacion.conector.ConciliacionTest10.initiaLiseBrowser  Time elapsed: 1.492 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest10.initiaLiseBrowser  Time elapsed: 1.338 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest10.initiaLiseBrowser(ConciliacionTest10.java:37)
 
-com.mkyong.conciliacion.conector.ConciliacionTest11.initiaLiseBrowser  Time elapsed: 1.5 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest11.initiaLiseBrowser  Time elapsed: 1.347 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest11.initiaLiseBrowser(ConciliacionTest11.java:38)
 
-com.mkyong.conciliacion.conector.ConciliacionTest13.initiaLiseBrowser  Time elapsed: 1.506 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest13.initiaLiseBrowser  Time elapsed: 1.351 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest13.initiaLiseBrowser(ConciliacionTest13.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest3.initiaLiseBrowser  Time elapsed: 1.51 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest3.initiaLiseBrowser  Time elapsed: 1.354 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest3.initiaLiseBrowser(ConciliacionTest3.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest4.initiaLiseBrowser  Time elapsed: 1.513 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest4.initiaLiseBrowser  Time elapsed: 1.358 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest4.initiaLiseBrowser(ConciliacionTest4.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest5.initiaLiseBrowser  Time elapsed: 1.515 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest5.initiaLiseBrowser  Time elapsed: 1.36 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest5.initiaLiseBrowser(ConciliacionTest5.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest62.initiaLiseBrowser  Time elapsed: 1.519 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest62.initiaLiseBrowser  Time elapsed: 1.363 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest62.initiaLiseBrowser(ConciliacionTest62.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest32.initiaLiseBrowser  Time elapsed: 1.523 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest32.initiaLiseBrowser  Time elapsed: 1.366 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest32.initiaLiseBrowser(ConciliacionTest32.java:38)
 
-com.mkyong.conciliacion.conector.ConciliacionTest33.initiaLiseBrowser  Time elapsed: 1.526 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest33.initiaLiseBrowser  Time elapsed: 1.369 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest33.initiaLiseBrowser(ConciliacionTest33.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest34.initiaLiseBrowser  Time elapsed: 1.529 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest34.initiaLiseBrowser  Time elapsed: 1.372 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest34.initiaLiseBrowser(ConciliacionTest34.java:38)
 
-com.mkyong.conciliacion.conector.ConciliacionTest63.initiaLiseBrowser  Time elapsed: 1.533 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest63.initiaLiseBrowser  Time elapsed: 1.378 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest63.initiaLiseBrowser(ConciliacionTest63.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest64.initiaLiseBrowser  Time elapsed: 1.54 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest64.initiaLiseBrowser  Time elapsed: 1.382 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest64.initiaLiseBrowser(ConciliacionTest64.java:36)
 
-com.mkyong.conciliacion.conector.ConciliacionTest65.initiaLiseBrowser  Time elapsed: 1.544 s  <<< FAILURE!
+com.mkyong.conciliacion.conector.ConciliacionTest65.initiaLiseBrowser  Time elapsed: 1.386 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.conciliacion.conector.ConciliacionTest65.initiaLiseBrowser(ConciliacionTest65.java:36)
 
-com.mkyong.buson.jes.detail.DonativosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.55 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.DonativosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.39 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.DonativosJesDetailTest.initiaLiseBrowser(DonativosJesDetailTest.java:35)
 
-com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.553 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.395 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaAdendaMultiAssistenciaJesDetailTest.initiaLiseBrowser(FacturaAdendaMultiAssistenciaJesDetailTest.java:34)
 
-com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.556 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser  Time elapsed: 1.397 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaBasicaJesDetailTest.initiaLiseBrowser(FacturaBasicaJesDetailTest.java:33)
 
-com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest.initiaLiseBrowser  Time elapsed: 1.559 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest.initiaLiseBrowser  Time elapsed: 1.4 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaCartaPorteJesDetailTest.initiaLiseBrowser(FacturaCartaPorteJesDetailTest.java:36)
 
-com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest.initiaLiseBrowser  Time elapsed: 1.562 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest.initiaLiseBrowser  Time elapsed: 1.403 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.FacturaPagoJesDetailTest.initiaLiseBrowser(FacturaPagoJesDetailTest.java:34)
 
-com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest.initiaLiseBrowser  Time elapsed: 1.567 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest.initiaLiseBrowser  Time elapsed: 1.406 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.ImpuestosLocalesJesDetailTest.initiaLiseBrowser(ImpuestosLocalesJesDetailTest.java:37)
 
-com.mkyong.buson.jes.detail.INEJesDetailTest.initiaLiseBrowser  Time elapsed: 1.57 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.INEJesDetailTest.initiaLiseBrowser  Time elapsed: 1.409 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.INEJesDetailTest.initiaLiseBrowser(INEJesDetailTest.java:34)
 
-com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest.initiaLiseBrowser  Time elapsed: 1.574 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest.initiaLiseBrowser  Time elapsed: 1.412 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.InstituicionesEducativasJesDetailTest.initiaLiseBrowser(InstituicionesEducativasJesDetailTest.java:34)
 
-com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest.initiaLiseBrowser  Time elapsed: 1.578 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest.initiaLiseBrowser  Time elapsed: 1.417 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.LeyendasFiscalesJesDetailTest.initiaLiseBrowser(LeyendasFiscalesJesDetailTest.java:35)
 
-com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest.initiaLiseBrowser  Time elapsed: 1.582 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest.initiaLiseBrowser  Time elapsed: 1.422 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.NotaDeCreditoJesDetailTest.initiaLiseBrowser(NotaDeCreditoJesDetailTest.java:35)
 
-com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.586 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.425 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.NotariosPublicosJesDetailTest.initiaLiseBrowser(NotariosPublicosJesDetailTest.java:35)
 
-com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.59 s  <<< FAILURE!
+com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.initiaLiseBrowser  Time elapsed: 1.432 s  <<< FAILURE!
 java.lang.NullPointerException
 	at com.mkyong.buson.jes.detail.VehiculosUsadosJesDetailTest.initiaLiseBrowser(VehiculosUsadosJesDetailTest.java:35)
 

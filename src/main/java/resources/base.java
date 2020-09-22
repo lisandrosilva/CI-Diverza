@@ -32,13 +32,13 @@ public class base {
 		
 		prop.load(file);
 		
-		//String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 		//Field field = Class.getField("driver");
-		String browserName = System.getProperty("browser");
+		//String browserName = System.getProperty("browser");
 		
 		System.out.println(browserName);
 		
-	if (browserName.contains("Chrome"))
+	if (browserName.equals("Chrome"))
 	{
 		//Execute
 		
